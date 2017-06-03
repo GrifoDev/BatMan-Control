@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SuperMan Settings Free</string>
+    <string name="app_name">BatMan Settings Free</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="dialog_color_picker">Pick Color</string>
@@ -42,7 +42,7 @@
     <string name="backup_file_prefix_date_format" translatable="false">dd-MM-yy_HH:mm</string>
     <string name="backup_file_suffix" translatable="false">_RCBackup</string>
     <string name="restore_complete_toast">Restore complete</string>
-    <string name="about">Welcome to SuperMan</string>
+    <string name="about">Welcome to BatMan</string>
     <string name="systemui_prefs">SystemUI Settings</string>
     <string name="phone_prefs">Phone Settings</string>
     <string name="framework_prefs">Framework Preferences</string>
@@ -375,6 +375,8 @@
     <string name="PullDownNotificationMusic">Music Button color</string>
     <string name="PullDownNotificationFooter">Notification footer text color</string>
     <string name="PullDownNotificationFooterBackground">Notification footer background color</string>
+    <string name="PullDownNotificationTransparency">Allow notification background transparency</string>
+    <string name="PullDownNotificationTransparencyColor">Notification transparency background color</string>
     <string name="PayPalSummary">Click to visit</string>
     <string name="PayPal">Visit my PayPal website</string>
     <string name="PayPalDonation">Donation</string>
@@ -653,16 +655,16 @@
     <string name="AboutGooglePlus">Google Plus Community</string>
     <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
     <string name="AboutXDA">XDA Links to Visit</string>
-    <string name="AboutXDAS7Rom" translatable="false">SuperMan-Rom SM-G930X</string>
-    <string name="AboutXDAS7ERom" translatable="false">SuperMan-Rom SM-G935X</string>
+    <string name="AboutXDAS7Rom" translatable="false">BatMan-Rom SM-G950X</string>
+    <string name="AboutXDAS7ERom" translatable="false">BatMan-Rom SM-G955X</string>
     <string name="AboutXDAS7SuperKernel" translatable="false">SuperKernel SM-G930X</string>
     <string name="AboutXDAS7ESuperKernel" translatable="false">SuperKernel SM-G935X</string>
-    <string name="AboutXDAS7SuperStockKernel" translatable="false">SuperStock-Kernel SM-G930X</string>
-    <string name="AboutXDAS7ESuperStockKernel" translatable="false">SuperStock-Kernel SM-G935X</string>
+    <string name="AboutXDAS7SuperStockKernel" translatable="false">BatStock-Kernel SM-G950X</string>
+    <string name="AboutXDAS7ESuperStockKernel" translatable="false">BatStock-Kernel SM-G955X</string>
     <string name="AboutAFH">Download Links on AFH</string>
-    <string name="AboutAFHRom">Download latest SuperMan-Rom</string>
+    <string name="AboutAFHRom">Download latest Batman-Rom</string>
     <string name="AboutAFHSuperKernel">Download latest SuperKernel</string>
-    <string name="AboutAFHSuperStockKernel">Download latest SuperStock-Kernel</string>
+    <string name="AboutAFHSuperStockKernel">Download latest BatStock-Kernel</string>
     <string name="AboutAFHCSC">Download latest CSC Selection</string>
     <string name="ContactUs">Contact Us</string>
     <string name="OurTeam">Our Team</string>

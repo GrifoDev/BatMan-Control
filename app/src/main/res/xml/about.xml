@@ -39,13 +39,6 @@
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"
-            android:title="@string/AboutAFHSuperKernel">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=745425885120719788" />
-        </PreferenceScreen>
-        <PreferenceScreen
-            android:icon="@drawable/afh"
             android:title="@string/AboutAFHSuperStockKernel">
             <intent
                 android:action="android.intent.action.VIEW"
@@ -75,20 +68,6 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://forum.xda-developers.com/s7-edge/development/rom-s7-edge-rom-v1-1-t3356699" />
-        </PreferenceScreen>
-        <PreferenceScreen
-            android:icon="@drawable/xda"
-            android:title="@string/AboutXDAS7SuperKernel">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://forum.xda-developers.com/galaxy-s7/development/kernel-superkernel-v1-0-t3389247" />
-        </PreferenceScreen>
-        <PreferenceScreen
-            android:icon="@drawable/xda"
-            android:title="@string/AboutXDAS7ESuperKernel">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://forum.xda-developers.com/s7-edge/development/kernel-superkernel-v1-0-t3389255" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/xda"
@@ -153,7 +132,7 @@
             android:title="@string/AboutTelegramChat">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/joinchat/AAAAAD-RcLTV9gB6WHH4zg" />
+                android:data="https://t.me/joinchat/AAAAAENMB50C8jBS-B7KLA" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/telegram"
@@ -161,7 +140,7 @@
             android:title="@string/AboutTelegramChannel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/SuperManRom" />
+                android:data="https://t.me/BatManRom" />
         </PreferenceScreen>
     </PreferenceCategory>
 
