@@ -310,6 +310,7 @@
     <string name="SFinder">sFinder in pulldown menu</string>
     <string name="DoubleTapSleep">Double tab to sleep on statusbar</string>
     <string name="BrightnessWarning">High brightness warning</string>
+    <string name="VolumeWarning">High volume warning</string>
     <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
     <string name="NotificationShape">Notification bg shape</string>
     <string name="StockShape">Stock look</string>
@@ -583,6 +584,7 @@
     <string name="LockscreenMiscCarrierText">Carrier Custom Text</string>
     <string name="LockscreenMiscCarrierSet">Set Custom Text</string>
     <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
+    <string name="LockscreenMiscClock">Switch between S8 and S7 clock</string>
     <string name="LockscreenAnalogTitle">Analog Clock</string>
     <string name="LockscreenAnalog">Analog clock on Lockscreen</string>
     <string name="LockscreenAnalog1">Style 1</string>
