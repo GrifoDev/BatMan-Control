@@ -5,6 +5,7 @@
       <w>autohide</w>
       <w>backlight</w>
       <w>busybox</w>
+      <w>grifo</w>
       <w>lockscreen</w>
       <w>magisk</w>
       <w>minit</w>
@@ -13,6 +14,7 @@
       <w>quicksettings</w>
       <w>samsung</w>
       <w>statusbar</w>
+      <w>themer</w>
       <w>tkkg</w>
       <w>touchwiz</w>
     </words>

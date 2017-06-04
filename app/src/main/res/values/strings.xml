@@ -378,9 +378,13 @@
     <string name="PullDownNotificationFooterBackground">Notification footer background color</string>
     <string name="PullDownNotificationTransparency">Allow notification background transparency</string>
     <string name="PullDownNotificationTransparencyColor">Notification transparency background color</string>
-    <string name="PayPalSummary">Click to visit</string>
-    <string name="PayPal">Visit my PayPal website</string>
     <string name="PayPalDonation">Donation</string>
+    <string name="PayPalSummary">Click to visit</string>
+    <string name="PayPalTkkg">PayPal website of Tkkg1994 (Developer)</string>
+    <string name="PayPalMyellow">PayPal website of myellow (Designer)</string>
+    <string name="PayPalAlex">PayPal website of Alex (Themer)</string>
+    <string name="PayPalLeeXxXo">PayPal website of LeeXxXo (Webmaster)</string>
+    <string name="PayPalMisterEvo">PayPal website of MisterEvo (Supporter)</string>
     <string name="Battery">Battery Settings</string>
     <string name="BatterySummary">Different battery related settings can be changed here</string>
     <string name="BatteryBar">Battery Bar</string>
@@ -644,8 +648,11 @@
     <string name="AboutYellow" translatable="false">myellow</string>
     <string name="AboutAlex" translatable="false">_alex74_</string>
     <string name="AboutMisterEvo" translatable="false">MisterEvo</string>
+    <string name="AboutLeeXxXo" translatable="false">LeeXxXo</string>
     <string name="AboutDeveloperSummary">Developer</string>
+    <string name="AboutWebsiteSummary">Webmaster/Designer</string>
     <string name="AboutDesignerSummary">Designer</string>
+    <string name="AboutSupporterSummary">Supporter</string>
     <string name="AboutRomDevelopers">Rom Developers</string>
     <string name="AboutTelegram">Telegram Links</string>
     <string name="AboutTelegramChat">Telegram Chat</string>
@@ -654,8 +661,8 @@
     <string name="AboutTelegramChannelSummary">Get latest Information about the Rom</string>
     <string name="AboutPlayStore">Google PlayStore App</string>
     <string name="AboutPlayStoreSummary">Visit the official app on PlayStore to support us</string>
-    <string name="AboutGooglePlus">Google Plus Community</string>
-    <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
+    <string name="AboutGrifoDev">GrifoDev Community</string>
+    <string name="AboutGrifoDevSummary">New self-made website with forum function</string>
     <string name="AboutXDA">XDA Links to Visit</string>
     <string name="AboutXDAS7Rom" translatable="false">BatMan-Rom SM-G950X</string>
     <string name="AboutXDAS7ERom" translatable="false">BatMan-Rom SM-G955X</string>
