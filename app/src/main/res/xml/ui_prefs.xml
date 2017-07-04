@@ -520,6 +520,14 @@
                 app:minValue="300"
                 app:rebootDevice="true"
                 app:unitsValue="mSec" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="0"
+                android:key="volume_wake_screen"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/VolumeWake"
+                app:rebootDevice="true"
+                app:unitsValue="mSec" />
         </PreferenceCategory>
     </PreferenceScreen>
 

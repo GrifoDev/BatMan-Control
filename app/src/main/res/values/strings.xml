@@ -489,6 +489,7 @@
     <string name="VolumeSkip">Music skip while screen off</string>
     <string name="VolumeDouble">Double click for play/pause</string>
     <string name="VolumeLongPress">Long press timeout</string>
+    <string name="VolumeWake">Wake your device with volume rocker</string>
     <string name="RecentTitle">Recent Panel</string>
     <string name="RecentSummary">Change mods for recent panel</string>
     <string name="RecentQuickLaunch">Quick Launch</string>
