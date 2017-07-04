@@ -244,6 +244,13 @@
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff212122"
+                android:dependency="unlock_notification_colors"
+                android:key="notification_icon_color"
+                android:title="@string/PullDownNotificationIcon"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#d9252525"
                 android:dependency="unlock_notification_colors"
                 android:key="notif_footer_text_color"
