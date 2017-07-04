@@ -196,6 +196,7 @@
                 android:dependency="unlock_qs_colors"
                 android:key="qs_drag_handle_icon_color"
                 android:title="@string/PullDownQuicksettingsDragIcon" />
+            <!--/*
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fff5f5f5"
                 android:dependency="unlock_qs_colors"
@@ -206,7 +207,6 @@
                 android:dependency="unlock_qs_colors"
                 android:key="qs_search_text_color"
                 android:title="@string/PullDownQuicksettingsSearchText" />
-            <!--/*
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_qs_colors"
