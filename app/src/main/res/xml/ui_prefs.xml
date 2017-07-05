@@ -354,7 +354,7 @@
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
+                android:defaultValue="true"
                 android:key="s_eight_style"
                 android:summaryOff="@string/Disabled"
                 android:summaryOn="@string/Enabled"
