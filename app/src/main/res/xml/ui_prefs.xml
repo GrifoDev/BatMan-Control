@@ -95,6 +95,30 @@
                 android:summaryOff="@string/Hidden"
                 android:summaryOn="@string/Shown"
                 android:title="@string/BatteryStockPercentage" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:dependency="hide_battery_stock"
+                android:key="battery_color_main"
+                android:summary="@string/WeatherColor"
+                android:title="@string/BatteryStockMainColor"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:dependency="hide_battery_stock"
+                android:key="battery_color"
+                android:summary="@string/WeatherColor"
+                android:title="@string/BatteryStockColor"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff000000"
+                android:dependency="hide_battery_stock"
+                android:key="battery_color_dark"
+                android:summary="@string/WeatherColor"
+                android:title="@string/BatteryStockColorDark"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/Battery3MinitTitle">
@@ -256,6 +280,17 @@
                 android:entryValues="@array/SignalPositionValue"
                 android:key="left_signal"
                 android:title="@string/Signal"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="@string/SignalDataIcon">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="LTEIcon"
+                android:summaryOff="@string/SignalDataIcon4G"
+                android:summaryOn="@string/SignalDataIconLTE"
+                android:title="@string/SignalDataIcon"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
         </PreferenceCategory>
@@ -525,9 +560,7 @@
                 android:key="volume_wake_screen"
                 android:summaryOff="@string/Disabled"
                 android:summaryOn="@string/Enabled"
-                android:title="@string/VolumeWake"
-                app:rebootDevice="true"
-                app:unitsValue="mSec" />
+                android:title="@string/VolumeWake" />
         </PreferenceCategory>
     </PreferenceScreen>
 

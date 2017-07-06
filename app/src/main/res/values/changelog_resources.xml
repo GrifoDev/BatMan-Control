@@ -9,7 +9,16 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items" translatable="false">
-        <item>Initial release based on AQEB</item>
+        <item>Rebased on latest AQF7 release</item>
+        <item>Latest June patch</item>
+        <item>Fixed gapp on pulldown menu</item>
+        <item>Made icons colorable in RC</item>
+        <item>Updated Magisk manager</item>
+        <item>Immersive mode is now choosable in rc</item>
+        <item>All kernels updated</item>
+        <item>Magisk updated to V13 beta</item>
+        <item>SuperSu updated to latest SR1 beta</item>
+        <item>Many more things, please check XDA or grifodev.ch</item>
     </string-array>
 
     <!--This will be the dialog title.
