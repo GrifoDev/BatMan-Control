@@ -69,21 +69,21 @@
             android:title="@string/AboutAFHRom">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=817550096634750162" />
+                android:data="https://www.androidfilehost.com/?w=files&amp;flid=187401" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"
             android:title="@string/AboutAFHSuperStockKernel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=673368273298942996" />
+                android:data="https://www.androidfilehost.com/?w=files&amp;flid=179494" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"
             android:title="@string/AboutAFHCSC">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=457095661767146041" />
+                android:data="https://www.androidfilehost.com/?w=files&amp;flid=179349" />
         </PreferenceScreen>
     </PreferenceCategory>
 
@@ -94,28 +94,28 @@
             android:title="@string/AboutXDAS7Rom">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://forum.xda-developers.com/galaxy-s7/development/rom-s7-rom-v1-0-t3356197" />
+                android:data="https://forum.xda-developers.com/galaxy-s8/development/rom-batman-rom-v1-0-0-t3618388" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/xda"
             android:title="@string/AboutXDAS7ERom">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://forum.xda-developers.com/s7-edge/development/rom-s7-edge-rom-v1-1-t3356699" />
+                android:data="https://forum.xda-developers.com/galaxy-s8+/development/rom-batman-rom-v1-0-0-t3618374" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/xda"
             android:title="@string/AboutXDAS7SuperStockKernel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://forum.xda-developers.com/galaxy-s7/development/kernel-superstock-v1-3-5-t3453464" />
+                android:data="https://forum.xda-developers.com/galaxy-s8/development/kernel-batstock-kernel-v1-0-1-t3606742" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/xda"
             android:title="@string/AboutXDAS7ESuperStockKernel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://forum.xda-developers.com/s7-edge/development/kernel-superstock-v1-3-5-t3453462" />
+                android:data="https://forum.xda-developers.com/galaxy-s8+/development/kernel-batstock-kernel-v1-0-1-t3606744" />
         </PreferenceScreen>
     </PreferenceCategory>
 

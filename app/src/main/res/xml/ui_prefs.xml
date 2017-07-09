@@ -95,17 +95,18 @@
                 android:summaryOff="@string/Hidden"
                 android:summaryOn="@string/Shown"
                 android:title="@string/BatteryStockPercentage" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ffffffff"
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
                 android:dependency="hide_battery_stock"
                 android:key="battery_color_main"
-                android:summary="@string/WeatherColor"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
                 android:title="@string/BatteryStockMainColor"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ffffffff"
-                android:dependency="hide_battery_stock"
+                android:dependency="battery_color_main"
                 android:key="battery_color"
                 android:summary="@string/WeatherColor"
                 android:title="@string/BatteryStockColor"
@@ -113,7 +114,7 @@
                 app:packageNameToKill="com.android.systemui" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ff000000"
-                android:dependency="hide_battery_stock"
+                android:dependency="battery_color_main"
                 android:key="battery_color_dark"
                 android:summary="@string/WeatherColor"
                 android:title="@string/BatteryStockColorDark"
@@ -434,6 +435,31 @@
         </PreferenceCategory>
     </PreferenceScreen>
 
+    <!--/*
+        <PreferenceScreen
+            android:summary="@string/NavBarSummary"
+            android:title="@string/NavBarTitle">
+            <PreferenceCategory
+                android:title="@string/NavBarColor">
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:defaultValue="false"
+                    android:key="unlock_navbar_colors"
+                    android:summaryOff="@string/PullDownLock"
+                    android:summaryOn="@string/PullDownUnlock"
+                    android:title="@string/PullDownColor"
+                    app:isSilent="false"
+                    app:packageNameToKill="com.android.systemui"/>
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:defaultValue="#fffafafa"
+                    android:dependency="unlock_navbar_colors"
+                    android:key="navbar_icon_color"
+                    android:title="@string/NavBarIconColor"
+                    app:isSilent="false"
+                    app:packageNameToKill="com.android.systemui"/>
+            </PreferenceCategory>
+        </PreferenceScreen>
+        */-->
+
     <PreferenceScreen
         android:icon="@drawable/ic_setting_recent"
         android:summary="@string/RecentSummary"
@@ -536,16 +562,14 @@
                 android:key="skip_tracks"
                 android:summaryOff="@string/Disabled"
                 android:summaryOn="@string/Enabled"
-                android:title="@string/VolumeSkip"
-                app:rebootDevice="true" />
+                android:title="@string/VolumeSkip" />
             <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                 android:defaultValue="false"
                 android:dependency="skip_tracks"
                 android:key="double_click_skip_tracks"
                 android:summaryOff="@string/Disabled"
                 android:summaryOn="@string/Enabled"
-                android:title="@string/VolumeDouble"
-                app:rebootDevice="true" />
+                android:title="@string/VolumeDouble" />
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                 android:defaultValue="600"
                 android:dependency="skip_tracks"
@@ -553,7 +577,6 @@
                 android:title="@string/VolumeLongPress"
                 app:maxValue="1300"
                 app:minValue="300"
-                app:rebootDevice="true"
                 app:unitsValue="mSec" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="0"
