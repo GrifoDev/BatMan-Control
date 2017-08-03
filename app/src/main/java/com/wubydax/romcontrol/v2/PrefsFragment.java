@@ -127,7 +127,7 @@ public class PrefsFragment extends PreferenceFragment implements Preference.OnPr
     private void setUpNestedPreferenceLayout(PreferenceScreen preference) {
         final Dialog dialog = preference.getDialog();
         if (dialog != null) {
-            ViewGroup rootView = (ViewGroup) dialog.findViewById(android.R.id.list).getParent().getParent();
+            ViewGroup rootView = (ViewGroup) dialog.findViewById(android.R.id.list).getParent();
             if(Build.VERSION.SDK_INT > Build.VERSION_CODES.M ) {
                 rootView = (ViewGroup) rootView.getParent();
             }
