@@ -435,7 +435,6 @@
         </PreferenceCategory>
     </PreferenceScreen>
 
-    <!--/*
         <PreferenceScreen
             android:summary="@string/NavBarSummary"
             android:title="@string/NavBarTitle">
@@ -448,17 +447,17 @@
                     android:summaryOn="@string/PullDownUnlock"
                     android:title="@string/PullDownColor"
                     app:isSilent="false"
-                    app:packageNameToKill="com.android.systemui"/>
+                    app:packageNameToKill="com.android.systemui" />
                 <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:defaultValue="#fffafafa"
                     android:dependency="unlock_navbar_colors"
                     android:key="navbar_icon_color"
                     android:title="@string/NavBarIconColor"
                     app:isSilent="false"
-                    app:packageNameToKill="com.android.systemui"/>
+                    app:packageNameToKill="com.android.systemui" />
             </PreferenceCategory>
         </PreferenceScreen>
-        */-->
+
 
     <PreferenceScreen
         android:icon="@drawable/ic_setting_recent"

@@ -4,15 +4,12 @@ import android.app.FragmentManager;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.os.Environment;
+import android.provider.Settings.Secure;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -21,8 +18,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
+import com.google.android.vending.licensing.AESObfuscator;
+import com.google.android.vending.licensing.LicenseChecker;
+import com.google.android.vending.licensing.LicenseCheckerCallback;
+import com.google.android.vending.licensing.ServerManagedPolicy;
 import com.wubydax.romcontrol.v2.utils.BackupRestoreIntentService;
 import com.wubydax.romcontrol.v2.utils.Constants;
 import com.wubydax.romcontrol.v2.utils.FileHelper;
@@ -32,7 +32,6 @@ import com.wubydax.romcontrol.v2.utils.SuTask;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.jar.Manifest;
 
 /*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016
         This program is free software: you can redistribute it and/or modify
@@ -56,14 +55,22 @@ public class MainActivity extends AppCompatActivity
     private FragmentManager mFragmentManager;
     private SharedPreferences mSharedPreferences;
     private ArrayList<Integer> mNavMenuItemsIds;
+    private LicenseCheckerCallback mLicenseCheckerCallback;
+    private LicenseChecker mChecker;
+    private static final String BASE64_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmLs1lm/yKYgwzRShKYnsxbhzeIzGzX6tOLEnEzbOoWqkqAhYw+hEziLeJttoqrizXYNDPXKSq/f0YoZC204O+K6aWYub4Jz9o6+k390JCAZ67nyrmKyTU9pnnLfExb7+6JYmgRiLX0neMOxLrU8LHhqCipnld8p/ghr4Tsk2RSiphJv4YHtIKsBWpSseyhtLJsLhgAsNrns4LSeYmhY53kHpWaOrDtHGL3x0irsC/ShZKPYlJSWbWmdzLJPsQWlmSOjzR0aWRCz6klwyqCyM2Ca7yh8TicjXtTrXAIXWVnHLF4tRsKhXG14Yt3HC28zOKqaAApEQumMgheCTMpUPCwIDAQAB";
     private final String TEMP_FILE_NAME = ".other_temp.xml";
     private final String cmdRT = "cat /system/csc/others.xml > " + Environment.getExternalStorageDirectory() + "/.tmpRC/" + TEMP_FILE_NAME + "\n";
     private final String cmdTR = "cat " +Environment.getExternalStorageDirectory() + "/.tmpRC/" + TEMP_FILE_NAME + " > /system/csc/others.xml\n";
     private String result;
-    private final int PERM_READ_STORAGE = 0;
     private final File tempFile = new File(Environment.getExternalStorageDirectory() + "/.tmpRC/" + TEMP_FILE_NAME);
     File direct = new File(Environment.getExternalStorageDirectory() + "/.tmpRC");
     Process p;
+
+    // Generate your own 20 random bytes, and put them here.
+    private static final byte[] SALT = new byte[] {
+            35, 95, -43, -13, 123, 28, -123, -76, 12, 39, -75, 15, 94, -13, -100, 96, 55, -32, 46,
+            39
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,13 +93,6 @@ public class MainActivity extends AppCompatActivity
         }
         setTitle(titles[lastFragmentIndex]);
         initViews();
-
-        if(ContextCompat.checkSelfPermission(MainActivity.this, android.Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
-
-        } else {
-            ActivityCompat.requestPermissions(MainActivity.this, new String[]{android.Manifest.permission.READ_EXTERNAL_STORAGE}, PERM_READ_STORAGE);
-        }
-
         try {
             p = Runtime.getRuntime().exec("su");
         } catch (IOException e) {
@@ -107,34 +107,15 @@ public class MainActivity extends AppCompatActivity
         //FileHelper.investInput(result, tempFile);
         //FileHelper.copyFileToRoot(cmdTR, p);
 
+        String deviceId = Secure.getString(getContentResolver(), Secure.ANDROID_ID);
 
+        mLicenseCheckerCallback = new MyLicenseCheckerCallback();
+        mChecker = new LicenseChecker(
+                this, new ServerManagedPolicy(this,
+                new AESObfuscator(SALT, getPackageName(), deviceId)),
+                BASE64_PUBLIC_KEY);
+        doCheck();
 
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        switch (requestCode) {
-            case PERM_READ_STORAGE: {
-                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    //Perm granted
-                    try {
-                        p = Runtime.getRuntime().exec("su");
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                    if (!direct.exists()) {
-                        direct.mkdir(); //directory is created;
-                    }
-
-                    FileHelper.copyFileToTemp(cmdRT, p);
-                    result = FileHelper.readFile(tempFile);
-                } else {
-                    //Perm not ok
-                    Toast.makeText(MainActivity.this, "Please grant Storage permission to use the app properly", Toast.LENGTH_LONG).show();
-                }
-            }
-        }
     }
 
     private void initViews() {
@@ -327,9 +308,37 @@ public class MainActivity extends AppCompatActivity
         return getWindow().getDecorView();
     }
 
+    private void doCheck() {
+        mChecker.checkAccess(mLicenseCheckerCallback);
+    }
+
+    private class MyLicenseCheckerCallback implements LicenseCheckerCallback {
+        public void allow(int policyReason) {
+            if (isFinishing()) {
+                // Don't update UI if Activity is finishing.
+                return;
+            }
+        }
+
+        public void dontAllow(int policyReason) {
+            if (isFinishing()) {
+                // Don't update UI if Activity is finishing.
+                return;
+            }
+        }
+
+        public void applicationError(int errorCode) {
+            if (isFinishing()) {
+                // Don't update UI if Activity is finishing.
+                return;
+            }
+        }
+    }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        mChecker.onDestroy();
         if(direct.isDirectory()) {
             String[] children = direct.list();
             for(int i = 0; i < children.length; i++) {

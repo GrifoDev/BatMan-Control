@@ -24,7 +24,7 @@
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog" translatable="false">BatMan-Rom V1.0.0</string>
+    <string name="rom_version_for_changelog" translatable="false">BatMan-Rom V1.1.1</string>
 
 
 </resources>
