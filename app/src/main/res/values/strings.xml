@@ -697,8 +697,8 @@
     <string name="AboutXDAS7SuperStockKernel" translatable="false">BatStock-Kernel SM-G950X</string>
     <string name="AboutXDAS7ESuperStockKernel" translatable="false">BatStock-Kernel SM-G955X</string>
     <string name="AboutAFH">Download Links on AFH</string>
-    <string name="AboutAFHRom">Download latest Batman-Rom</string>
-    <string name="AboutAFHSuperKernel">Download latest SuperKernel</string>
+    <string name="AboutAFHRom">Download latest BatMan-Rom</string>
+    <string name="AboutAFHSuperKernel">Download latest BatKernel</string>
     <string name="AboutAFHSuperStockKernel">Download latest BatStock-Kernel</string>
     <string name="AboutAFHCSC">Download latest CSC Selection</string>
     <string name="ContactUs">Contact Us</string>
