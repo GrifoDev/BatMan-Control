@@ -5,64 +5,6 @@
     <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/bat_logo"/>
 
     <PreferenceCategory
-        android:title="@string/PayPalDonation">
-        <PreferenceScreen
-            android:icon="@drawable/paypal"
-            android:summary="@string/PayPalSummary"
-            android:title="@string/PayPalTkkg">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://www.paypal.me/LucaGrifo" />
-        </PreferenceScreen>
-        <PreferenceScreen
-            android:icon="@drawable/paypal"
-            android:summary="@string/PayPalSummary"
-            android:title="@string/PayPalMyellow">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://www.paypal.me/YUHS" />
-        </PreferenceScreen>
-        <PreferenceScreen
-            android:icon="@drawable/paypal"
-            android:summary="@string/PayPalSummary"
-            android:title="@string/PayPalAlex">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://www.paypal.me/AlessandroCerv" />
-        </PreferenceScreen>
-        <PreferenceScreen
-            android:icon="@drawable/paypal"
-            android:summary="@string/PayPalSummary"
-            android:title="@string/PayPalLeeXxXo">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://www.paypal.me/thefr3ak" />
-        </PreferenceScreen>
-        <PreferenceScreen
-            android:icon="@drawable/paypal"
-            android:summary="@string/PayPalSummary"
-            android:title="@string/PayPalMisterEvo">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://www.paypal.me/LSommerfeld" />
-        </PreferenceScreen>
-    </PreferenceCategory>
-
-    <!--/*
-    <PreferenceCategory
-        android:title="@string/AboutPlayStore">
-        <PreferenceScreen
-            android:icon="@drawable/playstore"
-            android:summary="@string/AboutPlayStoreSummary"
-            android:title="@string/AboutPlayStore">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://play.google.com/store/apps/details?id=com.wubydax.romcontrol.supercontrolpro" />
-        </PreferenceScreen>
-    </PreferenceCategory>
-    */-->
-
-    <PreferenceCategory
         android:title="@string/AboutAFH">
         <PreferenceScreen
             android:icon="@drawable/afh"
