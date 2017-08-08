@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">Перезагрузить сейчас</string>
     <string name="imminent_reboot_warning">Ваше устройство перезагрузеться сразу после завершения скрипта!!!</string>
     <string name="restore_dialog_description">Это действие восстанавливает цвет следующих пунктов на стандартные</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Светлая Тема</string>
     <string name="DarkTheme">Темная Тема</string>
     <string name="RestoreData">Восстановление данных</string>
@@ -308,6 +313,7 @@
     <string name="SFinder">sFinder в выпадающем меню</string>
     <string name="DoubleTapSleep">Дважды нажать на строке состояния чтобы усыпить устройство</string>
     <string name="BrightnessWarning">Предупреждение о высокой яркости</string>
+    <string name="VolumeWarning">Предупреждение о повышенной громкости</string>
     <string name="BrightnessSlider">Ползунок яркости в раскрывающемся меню</string>
     <string name="NotificationShape">Форма фона уведомлений</string>
     <string name="StockShape">Стандартный вид</string>
@@ -432,6 +438,10 @@
     <string name="MiscImmersiveArrayHideSta">Спрятать строку состояния</string>
     <string name="MiscImmersiveArrayHideNav">Спрятать кнопки навигации</string>
     <string name="MiscAODisplay">Яркость AOD</string>
+    <string name="NavBarColor">NavBar Colors</string>
+    <string name="NavBarIconColor">NavBar Icon Color</string>
+    <string name="NavBarTitle">Navigation Bar</string>
+    <string name="NavBarSummary">This settings contains navbar mods</string>
     <string name="Ambient">Экран Ambient Display</string>
     <string name="AmbientTitle">Настройки экрана Ambient display</string>
     <string name="AmbientPickUp">Ambient display будет отображаться когда Вы возьмете телефон в руки</string>

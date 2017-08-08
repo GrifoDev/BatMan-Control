@@ -63,6 +63,11 @@
     <string name="reboot_now_dialog_button">Herstart nu</string>
     <string name="imminent_reboot_warning">Apparaat zal ONMIDDELIJK herstarten nadat het script klaar is!!!</string>
     <string name="restore_dialog_description">Deze actie zal de volgende onderdelen herstellen naar de orginele kleuren</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Licht Thema</string>
     <string name="DarkTheme">Donker Thema</string>
     <string name="RestoreData">Herstel Data</string>
@@ -309,6 +314,7 @@
     <string name="SFinder">sFinder in pulldown menu</string>
     <string name="DoubleTapSleep">Double tap om te slapen op statusbalk</string>
     <string name="BrightnessWarning">Hoge helderheid waarschuwing</string>
+    <string name="VolumeWarning">Hoog Volume Waarschuwing </string>
     <string name="BrightnessSlider">Helderheid slider in pulldown menu</string>
     <string name="NotificationShape">Notification bg shape</string>
     <string name="StockShape">Stock uiterlijk</string>
@@ -433,6 +439,10 @@
     <string name="MiscImmersiveArrayHideSta">Verberg StatusBalk</string>
     <string name="MiscImmersiveArrayHideNav">Verberg Navigatiebalk</string>
     <string name="MiscAODisplay">AOD helderheid</string>
+    <string name="NavBarColor">NavBar Colors</string>
+    <string name="NavBarIconColor">NavBar Icon Color</string>
+    <string name="NavBarTitle">Navigation Bar</string>
+    <string name="NavBarSummary">This settings contains navbar mods</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Ambient display instellingen</string>
     <string name="AmbientPickUp">Ambient display zichtbaar bij oppakken</string>

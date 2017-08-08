@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">Yeniden başlat</string>
     <string name="imminent_reboot_warning">İşlem tamamlandığında Cihaz OTOMATİK olarak yeniden başlatılır!!!</string>
     <string name="restore_dialog_description">Bu eylem aşağıdaki ayarları varsayılan renklerine döndürecektir.</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Açık Tema</string>
     <string name="DarkTheme">Koyu Tema</string>
     <string name="RestoreData">Geri Yükle</string>
@@ -308,6 +313,7 @@
     <string name="SFinder">Panelde Arama Bölümü</string>
     <string name="DoubleTapSleep">Kilit İçin D.Çubuğuna Çift Tık</string>
     <string name="BrightnessWarning">Yüksek Parlaklık Uyarısını Kapat</string>
+    <string name="VolumeWarning">Yüksek ses uyarısı</string>
     <string name="BrightnessSlider">Üst Menüdeki Parlaklık Ayarlayıcısı</string>
     <string name="NotificationShape">Bildirim A.Plan Şekli</string>
     <string name="StockShape">Stok Görünüm</string>
@@ -432,6 +438,10 @@
     <string name="MiscImmersiveArrayHideSta">Durum çubuğunu gizle</string>
     <string name="MiscImmersiveArrayHideNav">Gizle Navigation</string>
     <string name="MiscAODisplay">AOD parlaklık</string>
+    <string name="NavBarColor">NavBar Colors</string>
+    <string name="NavBarIconColor">NavBar Icon Color</string>
+    <string name="NavBarTitle">Navigation Bar</string>
+    <string name="NavBarSummary">This settings contains navbar mods</string>
     <string name="Ambient">Ambient Display Ayarları</string>
     <string name="AmbientTitle">Ambient Display Görünüm - Süre Ayarları</string>
     <string name="AmbientPickUp">A.Display Yakalandıklarında Gösterecek</string>

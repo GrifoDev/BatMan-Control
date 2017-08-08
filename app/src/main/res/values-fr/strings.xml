@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">Redémarrer maintenant</string>
     <string name="imminent_reboot_warning">Votre appareil redémarrera IMMÉDIATEMENT à la fin du script!!!</string>
     <string name="restore_dialog_description">Cette action restituera les éléments suivants aux couleurs de base</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Thème claire</string>
     <string name="DarkTheme">Thème sombre</string>
     <string name="RestoreData">Restaurer les données</string>
@@ -308,6 +313,7 @@
     <string name="SFinder">Désactivation S Recherche</string>
     <string name="DoubleTapSleep">Double tap barre du haut pour éteindre</string>
     <string name="BrightnessWarning">Désactiver avertis. haute luminosité</string>
+    <string name="VolumeWarning">Avertissement de volume élevé</string>
     <string name="BrightnessSlider">Curseur luminosité menu déroulant</string>
     <string name="NotificationShape">Forme notification bg</string>
     <string name="StockShape">Aspect d\'origine</string>
@@ -432,6 +438,10 @@
     <string name="MiscImmersiveArrayHideSta">Masquer barre statut</string>
     <string name="MiscImmersiveArrayHideNav">Masquer Navigation</string>
     <string name="MiscAODisplay">AOD luminosité</string>
+    <string name="NavBarColor">NavBar Colors</string>
+    <string name="NavBarIconColor">NavBar Icon Color</string>
+    <string name="NavBarTitle">Navigation Bar</string>
+    <string name="NavBarSummary">This settings contains navbar mods</string>
     <string name="Ambient">Ecran ambiant</string>
     <string name="AmbientTitle">Paramètres de l\'écran ambiant</string>
     <string name="AmbientPickUp">L\'écran ambiant s\'affiche aux mouvements</string>

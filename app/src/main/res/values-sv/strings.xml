@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">Starta om nu</string>
     <string name="imminent_reboot_warning">Din telefon kommer startas om OMEDELBART efter att scriptet slutförts!</string>
     <string name="restore_dialog_description">Denna åtgärd kommer återställa dessa objekt tillbaka till standard färgerna</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Ljust tema</string>
     <string name="DarkTheme">Mörkt tema</string>
     <string name="RestoreData">Återställ data</string>
@@ -308,6 +313,7 @@
     <string name="SFinder">Slå av sFinder i pulldown-menyn</string>
     <string name="DoubleTapSleep">Dubbelklicka på statusfältet för att släcka skärmen</string>
     <string name="BrightnessWarning">Stäng av varing för hög ljusstyrka</string>
+    <string name="VolumeWarning">Varning för hög volym</string>
     <string name="BrightnessSlider">Justera ljustyrka på pulldown-menyn</string>
     <string name="NotificationShape">Notifikation bg form</string>
     <string name="StockShape">Stock look</string>
@@ -432,6 +438,10 @@
     <string name="MiscImmersiveArrayHideSta">Göm StatusBar</string>
     <string name="MiscImmersiveArrayHideNav">Göm Navigation</string>
     <string name="MiscAODisplay">AOD-ljusstyrka</string>
+    <string name="NavBarColor">NavBar Colors</string>
+    <string name="NavBarIconColor">NavBar Icon Color</string>
+    <string name="NavBarTitle">Navigation Bar</string>
+    <string name="NavBarSummary">This settings contains navbar mods</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Inställningar för Ambient Display</string>
     <string name="AmbientPickUp">Ambient display kommer visas när du tar upp telefonen</string>

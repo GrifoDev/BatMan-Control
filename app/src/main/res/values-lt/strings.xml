@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">perkrauti dabar</string>
     <string name="imminent_reboot_warning">Jūsų įrenginys bus perkrautas IŠ KARTO!!! pabaigus script diegimą</string>
     <string name="restore_dialog_description">Šis veiksmas atstatys sekančių punktų spalvas į numatytas</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Šviesi tema</string>
     <string name="DarkTheme">Tamsi tema</string>
     <string name="RestoreData">Atstatyti Duomenis</string>
@@ -308,6 +313,7 @@
     <string name="SFinder">Nerodyti sFinder Išplėčiamuose nustatymuose</string>
     <string name="DoubleTapSleep">Užmigdo įrenginį, dvigubas Būsenos juostos bakstelėjimas</string>
     <string name="BrightnessWarning">Panaikina perspėjimą dėl per didelio ekrano ryškumo</string>
+    <string name="VolumeWarning">Perdidelio garso įspėjimas</string>
     <string name="BrightnessSlider">Ryškumo Slankiklis Išplečiamąjame meniu</string>
     <string name="NotificationShape">Pranešimo fono forma</string>
     <string name="StockShape">Standartinė išvaizda</string>
@@ -432,6 +438,10 @@
     <string name="MiscImmersiveArrayHideSta">Slėpti Būsenos juostą</string>
     <string name="MiscImmersiveArrayHideNav">Slėpti Navigaciją</string>
     <string name="MiscAODisplay">AOD (visada įjungtas ekranas) ryškumas</string>
+    <string name="NavBarColor">NavBar Colors</string>
+    <string name="NavBarIconColor">NavBar Icon Color</string>
+    <string name="NavBarTitle">Navigation Bar</string>
+    <string name="NavBarSummary">This settings contains navbar mods</string>
     <string name="Ambient">Aplinkos Ekranas (Ambient Display)</string>
     <string name="AmbientTitle">Aplinkos ekrano (Ambient Display) nustatymai</string>
     <string name="AmbientPickUp">Aplinkos ekranas (Ambient Display) rodomas kai gaunamas pranešimas</string>
