@@ -434,7 +434,7 @@
             	app:packageNameToKill="com.android.systemui" />
         </PreferenceCategory>
     </PreferenceScreen>
-    
+
     <!--/*
             <PreferenceScreen
                 android:summary="@string/NavBarSummary"
