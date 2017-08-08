@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SM Setari Pro</string>
+    <string name="app_name">BM Setari Pro</string>
     <string name="navigation_drawer_open">Deschide meniul de navigatie</string>
     <string name="navigation_drawer_close">Inchide meniul de navigatie</string>
     <string name="dialog_color_picker">Alege culoarea</string>
@@ -40,7 +40,7 @@
     <string name="restore_confirm_message">Ai ales sa restaurezi Setarile precedente din Superman Rom.\n\n<b>Ai grija! Aceasta operatiune va aplica Setarile din fisier.\n\n<font fgcolor="red">NU CONTINUA daca nu esti complet sigur!!!</font></b>\n\nRom Control se va inchide si se va redeschide cand operatiunea va fi gata. In functe de cate setari sunt, timpul poate varia.\n\nTe rog apasa\"CONFIRM\" pt a continua sau\"CANCEL\" pt a renunta.</string>
     <string name="backup_complete_toast">Salvare terminata cu succes. Fisierul de backup poate fi gasit in\n%1$s</string>
     <string name="restore_complete_toast">Restaurare completa</string>
-    <string name="about">Bun venit la SM-Rom</string>
+    <string name="about">Bun venit la BM-Rom</string>
     <string name="systemui_prefs">Setari SystemUI</string>
     <string name="phone_prefs">Setari telefon</string>
     <string name="framework_prefs">Preferinte Framework</string>
@@ -673,9 +673,9 @@
     <string name="AboutGrifoDevSummary">Site nou cu functie de forum</string>
     <string name="AboutXDA">Link-uri XDA</string>
     <string name="AboutAFH">Link-uri descarcari AFH</string>
-    <string name="AboutAFHRom">Ultima versiune SuperMan-Rom</string>
-    <string name="AboutAFHSuperKernel">Ultima versiune SuperKernel</string>
-    <string name="AboutAFHSuperStockKernel">Ultima versiune SuperStock-Kernel</string>
+    <string name="AboutAFHRom">Ultima versiune BatMan-Rom</string>
+    <string name="AboutAFHSuperKernel">Ultima versiune BatKernel</string>
+    <string name="AboutAFHSuperStockKernel">Ultima versiune BatStock-Kernel</string>
     <string name="AboutAFHCSC">Ultima versiune CSC Selection</string>
     <string name="ContactUs">Contacteaza-ne</string>
     <string name="OurTeam">Echipa noastră</string>

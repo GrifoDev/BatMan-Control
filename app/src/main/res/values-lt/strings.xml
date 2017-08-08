@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SM Nustatymai PRO</string>
+    <string name="app_name">BM Nustatymai PRO</string>
     <string name="navigation_drawer_open">Atidaryti Nustatymų pasirinkimą</string>
     <string name="navigation_drawer_close">Uždaryti Nustatymų pasirinkimą</string>
     <string name="dialog_color_picker">Nustatyti spalvą</string>
@@ -40,7 +40,7 @@
     <string name="restore_confirm_message">Jūs pasirinkote atkurit prieš tai nodotos Rom Control nustatymų versijos Atsarginę kopiją.\n\n<b>Perspėjame! Ši operacija pakeis įrenginio nustatymus į nustatymus iš Atsarginės kopijos.\n\n<font fgcolor="red">NEDARYKITE ŠITO jei nesate 100% tikri dėl pasirinkimo!!!</font></b>\n\nRom Control bus uždaryta, kad būtų galima atstatyti duomenis, ir bus paleista iš naujo po atstatymo. Priklausomai nuo atstatomų duomenų/nustatymų kiekio tai gali užtrukti.\n\nSpauskite \"TVIRTINU\" , kad tęsti arba \"NUTRAUKTI\" norint nutraukti.</string>
     <string name="backup_complete_toast">Atsarginė kopija sukurta sėkmingai, ją galite rasti\n%1$s</string>
     <string name="restore_complete_toast">Atstatyta</string>
-    <string name="about">Čia - SM-Rom</string>
+    <string name="about">Čia - BM-Rom</string>
     <string name="systemui_prefs">SystemUI Nustatymai</string>
     <string name="phone_prefs">Įrenginio Nustatymai</string>
     <string name="framework_prefs">Struktūros Nustatymai</string>
@@ -673,9 +673,9 @@
     <string name="AboutGrifoDevSummary">Nauja savarankiškai sukurta svetainė su forumo funkcija</string>
     <string name="AboutXDA">XDA nuoroda</string>
     <string name="AboutAFH">AFH parsisiuntimo nuoroda</string>
-    <string name="AboutAFHRom">Atsisiųsti naujausią SuperMan-Rom versiją</string>
-    <string name="AboutAFHSuperKernel">Atsisiųsti paskutinę SuperKernel versiją</string>
-    <string name="AboutAFHSuperStockKernel">Atsisiųsti paskutinę SuperStock-Kernel versiją</string>
+    <string name="AboutAFHRom">Atsisiųsti naujausią BatMan-Rom versiją</string>
+    <string name="AboutAFHSuperKernel">Atsisiųsti paskutinę BatKernel versiją</string>
+    <string name="AboutAFHSuperStockKernel">Atsisiųsti paskutinę BatStock-Kernel versiją</string>
     <string name="AboutAFHCSC">Atsisiųsti naujausią CSC Selection</string>
     <string name="ContactUs">Susisiekite</string>
     <string name="OurTeam">Mūsų komanda</string>

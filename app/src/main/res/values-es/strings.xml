@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SM Ajustes Pro</string>
+    <string name="app_name">BM Ajustes Pro</string>
     <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
     <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
     <string name="dialog_color_picker">Elegir Color</string>
@@ -40,7 +40,7 @@
     <string name="restore_confirm_message">Ha elegido restaurar los datos de las preferencias de Rom Control anteriores.\n\n<b>¡Tenga cuidado! Esta operación cambiará la configuración de su dispositivo en función de los ajustes almacenados en este archivo.\n\n<font fgcolor="red">¡¡¡NO PROCEDA a menos que esté absolutamente seguro!!!</font></b>\n\nRom Control se cerrará para permitir la restauración de datos y volverá a abrirse una vez finalizada. Dependiendo de la cantidad de ajustes, esto puede tomar algún tiempo.\n\nPor favor click \"CONFIRMAR\" para proceder o \"CANCELAR\" para salir.</string>
     <string name="backup_complete_toast">Copia de seguridad completada correctamente. El archivo de copia de seguridad se puede encontrar en\n%1$s</string>
     <string name="restore_complete_toast">Restauración completa</string>
-    <string name="about">Bienvenido a SuperMan</string>
+    <string name="about">Bienvenido a BatMan</string>
     <string name="systemui_prefs">Ajustes de SystemUI</string>
     <string name="phone_prefs">Ajustes del Teléfono</string>
     <string name="framework_prefs">Preferencias del Framework</string>
@@ -673,9 +673,9 @@
     <string name="AboutGrifoDevSummary">Nuevo sitio propio con foro</string>
     <string name="AboutXDA">XDA Enlaces a Visitar</string>
     <string name="AboutAFH">Enlaces de descarga en AFH</string>
-    <string name="AboutAFHRom">Descargar la última SuperMan-Rom</string>
-    <string name="AboutAFHSuperKernel">Descargar el último SuperKernel</string>
-    <string name="AboutAFHSuperStockKernel">Descargar el último SuperStock-Kernel</string>
+    <string name="AboutAFHRom">Descargar la última BatMan-Rom</string>
+    <string name="AboutAFHSuperKernel">Descargar el último BatKernel</string>
+    <string name="AboutAFHSuperStockKernel">Descargar el último BatStock-Kernel</string>
     <string name="AboutAFHCSC">Download latest CSC Selection</string>
     <string name="ContactUs">Contact Us</string>
     <string name="OurTeam">Our Team</string>

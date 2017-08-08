@@ -673,9 +673,9 @@
     <string name="AboutGrifoDevSummary">موقع جديد ذاتي البناء يحتوي على منتدى</string>
     <string name="AboutXDA">روابط من موقع XDA للزيارة</string>
     <string name="AboutAFH">روابط التحميل من AFH</string>
-    <string name="AboutAFHRom">حمل اَخِر SuperMan-ROM</string>
-    <string name="AboutAFHSuperKernel">حمل اَخِر SuperKernel</string>
-    <string name="AboutAFHSuperStockKernel">حمل اَخِر SuperStock-Kernel</string>
+    <string name="AboutAFHRom">حمل اَخِر BatMan-ROM</string>
+    <string name="AboutAFHSuperKernel">حمل اَخِر BatKernel</string>
+    <string name="AboutAFHSuperStockKernel">حمل اَخِر BatStock-Kernel</string>
     <string name="AboutAFHCSC">تحميل اخر مختارات CSC</string>
     <string name="ContactUs">اتصل بنا</string>
     <string name="OurTeam">الفريق</string>

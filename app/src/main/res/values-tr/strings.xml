@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SM Rom Kontrol Pro</string>
+    <string name="app_name">BM Rom Kontrol Pro</string>
     <string name="navigation_drawer_open">Dolaşım çekmecesini aç</string>
     <string name="navigation_drawer_close">Dolaşım çekmecesini kapat</string>
     <string name="dialog_color_picker">Renk seç</string>
@@ -673,9 +673,9 @@
     <string name="AboutGrifoDevSummary">Forum işlevli yeni hazır web sitesi</string>
     <string name="AboutXDA">XDA Linklerimiz</string>
     <string name="AboutAFH">İndirme Linkleri AFH</string>
-    <string name="AboutAFHRom">SuperMan-Rom Son Sürüm İndir</string>
-    <string name="AboutAFHSuperKernel">SuperKernel Son Sürümü İndir</string>
-    <string name="AboutAFHSuperStockKernel">SuperStock-Kernel Son Sürümü İndir</string>
+    <string name="AboutAFHRom">BatMan-Rom Son Sürüm İndir</string>
+    <string name="AboutAFHSuperKernel">BatKernel Son Sürümü İndir</string>
+    <string name="AboutAFHSuperStockKernel">BatStock-Kernel Son Sürümü İndir</string>
     <string name="AboutAFHCSC">CSC Değiştirici Son Sürümü İndir</string>
     <string name="ContactUs">İletişim</string>
     <string name="OurTeam">Geliştirici Takım</string>

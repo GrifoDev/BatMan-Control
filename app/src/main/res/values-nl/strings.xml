@@ -13,7 +13,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SM Setup Pro</string>
+    <string name="app_name">BM Setup Pro</string>
     <string name="navigation_drawer_open">Open navigatielade</string>
     <string name="navigation_drawer_close">Sluit navigatielade</string>
     <string name="dialog_color_picker">Kies een kleur</string>
@@ -41,7 +41,7 @@
     <string name="restore_confirm_message">U heeft gekozen om data te herstellen van eerdere Rom Control voorkeuren.\n\n<b>Let op! Deze actie zal uw apparaat instellingen veranderen naar de instellingen in dit bestand.\n\n<font fgcolor="red">GA NIET VERDER tenzij u er absoluut zeker van bent!!!</font></b>\n\nRom control zal sluiten om data te herstellen en zal weer openen nadat het voltooid is. Afhankelijk van de hoeveelheid instellingen kan dit even duren.\n\Druk alstublieft op \"DOORGAAN \" om door te gaan of op \"STOP\" om te stoppen.</string>
     <string name="backup_complete_toast">Backup voltooid. Het backup bestand is the vinden in\n%1$s</string>
     <string name="restore_complete_toast">Herstellen voltooid</string>
-    <string name="about">Welkom bij SuperMan</string>
+    <string name="about">Welkom bij BM-Rom</string>
     <string name="systemui_prefs">SystemUI Instellingen</string>
     <string name="phone_prefs">Telefoon Instellingen</string>
     <string name="framework_prefs">Framework Voorkeuren</string>
@@ -674,9 +674,9 @@
     <string name="AboutGrifoDevSummary">Nieuwe zelfgemaakte website met Forum functie</string>
     <string name="AboutXDA">XDA Links om te bezoeken</string>
     <string name="AboutAFH">Download Links op AFH</string>
-    <string name="AboutAFHRom">Download laatste SuperMan-Rom</string>
-    <string name="AboutAFHSuperKernel">Download laatste SuperKernel</string>
-    <string name="AboutAFHSuperStockKernel">Download laatste SuperStock-Kernel</string>
+    <string name="AboutAFHRom">Download laatste BatMan-Rom</string>
+    <string name="AboutAFHSuperKernel">Download laatste BatKernel</string>
+    <string name="AboutAFHSuperStockKernel">Download laatste BatStock-Kernel</string>
     <string name="AboutAFHCSC">Download laatste CSC Selectie</string>
     <string name="ContactUs">Contacteer ons</string>
     <string name="OurTeam">Ons Team</string>

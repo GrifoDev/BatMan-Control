@@ -40,7 +40,7 @@
     <string name="restore_confirm_message">Вы выбрали восстановить данные настроек прошлой версии Rom Control.\n\n<b>Обратите внимание! Эта операция поменяет настройки вашего устройства на настройки из файла.\n\n<font fgcolor="red">НЕ ДЕЛАЙТЕ ЭТОГО пока не будете абсолютно уверены в своих действиях!!!</font></b>\n\nRom Control будет закрыта чтобы восстановить данные и перезапуститься после завершения. Это займет некоторое время, которое зависит от количества восстановляемых данных.\n\nНажмите \"CONFIRM\" для продолжения или \"CANCEL\" для отмены.</string>
     <string name="backup_complete_toast">Резервное копирование завершено успешно. Копия фаила находиться\n%1$s</string>
     <string name="restore_complete_toast">Восстановление завершено</string>
-    <string name="about">Добро пожаловать в SM-Rom</string>
+    <string name="about">Добро пожаловать в BM-Rom</string>
     <string name="systemui_prefs">Настройки SystemUI</string>
     <string name="phone_prefs">Настройки Устройства</string>
     <string name="framework_prefs">Настройки Фреймворка</string>
@@ -673,9 +673,9 @@
     <string name="AboutGrifoDevSummary">Новый вэбсайт с форумом</string>
     <string name="AboutXDA">XDA ссылки для посещения</string>
     <string name="AboutAFH">Ссылки "Скачать" на AFH</string>
-    <string name="AboutAFHRom">Скачать последнюю версию SuperMan-Rom</string>
-    <string name="AboutAFHSuperKernel">Скачать последнюю версию SuperKernel</string>
-    <string name="AboutAFHSuperStockKernel">Скачать последнюю версию SuperStock-Kernel</string>
+    <string name="AboutAFHRom">Скачать последнюю версию BatMan-Rom</string>
+    <string name="AboutAFHSuperKernel">Скачать последнюю версию BatKernel</string>
+    <string name="AboutAFHSuperStockKernel">Скачать последнюю версию BatStock-Kernel</string>
     <string name="AboutAFHCSC">Скачать последнюю версию CSC Selection</string>
     <string name="ContactUs">Свяжитесь с нами</string>
     <string name="OurTeam">Наша команда</string>

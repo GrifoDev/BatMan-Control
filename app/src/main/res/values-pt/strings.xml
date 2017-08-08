@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">Configurações SM Pro</string>
+    <string name="app_name">Configurações BM Pro</string>
     <string name="navigation_drawer_open">Abrir gaveta de notificações</string>
     <string name="navigation_drawer_close">Fechar gaveta de notificações</string>
     <string name="dialog_color_picker">Escolher uma Cor</string>
@@ -40,7 +40,7 @@
     <string name="restore_confirm_message">Você escolheu restaurar as configurações anteriores da Rom Control.\n\n<b>Atenção! Essa operação vai mudar as configurações do seu aparelho para as configurações do backup.\n\n<font fgcolor="red">NÃO CONTINUE a menos que você tenha CERTEZA!!!</font></b>\n\nRom Control irá reiniciar para restaurar os dados. Dependendo da quantidade de dados poderá demorar um pouco.\n\nClique \"CONFIRMAR\" para continuar \"CANCELAR\" para sair.</string>
     <string name="backup_complete_toast">Backup completado com sucesso. O arquivo backup poderá ser encontrado em:\n%1$s</string>
     <string name="restore_complete_toast">Restauração completa</string>
-    <string name="about">Bem-vindo a SM-Rom</string>
+    <string name="about">Bem-vindo a BM-Rom</string>
     <string name="systemui_prefs">Configurações SystemUI</string>
     <string name="phone_prefs">Configurações do Telefone</string>
     <string name="framework_prefs">Configurações do Framework</string>
@@ -673,9 +673,9 @@
     <string name="AboutGrifoDevSummary">Novo website/fórum</string>
     <string name="AboutXDA">Links para visitar no XDA</string>
     <string name="AboutAFH">Links para Download no AFH</string>
-    <string name="AboutAFHRom">Baixar a última SuperMan-Rom</string>
-    <string name="AboutAFHSuperKernel">Baixar a última SuperKernel</string>
-    <string name="AboutAFHSuperStockKernel">Baixar a última SuperStock-Kernel</string>
+    <string name="AboutAFHRom">Baixar a última BatMan-Rom</string>
+    <string name="AboutAFHSuperKernel">Baixar a última BatKernel</string>
+    <string name="AboutAFHSuperStockKernel">Baixar a última BatStock-Kernel</string>
    <string name="AboutAFHCSC">Baixar a última CSC Selection</string>
     <string name="ContactUs">Contato</string>
     <string name="OurTeam">Our Team</string>
