@@ -435,30 +435,37 @@
         </PreferenceCategory>
     </PreferenceScreen>
 
-    <!--/*
-            <PreferenceScreen
-                android:summary="@string/NavBarSummary"
-                android:title="@string/NavBarTitle">
-                <PreferenceCategory
-                    android:title="@string/NavBarColor">
-                    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                        android:defaultValue="false"
-                        android:key="unlock_navbar_colors"
-                        android:summaryOff="@string/PullDownLock"
-                        android:summaryOn="@string/PullDownUnlock"
-                        android:title="@string/PullDownColor"
-                        app:isSilent="false"
-                        app:packageNameToKill="com.android.systemui" />
-                    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                        android:defaultValue="#fffafafa"
-                        android:dependency="unlock_navbar_colors"
-                        android:key="navbar_icon_color"
-                        android:title="@string/NavBarIconColor"
-                        app:isSilent="false"
-                        app:packageNameToKill="com.android.systemui" />
-                </PreferenceCategory>
-            </PreferenceScreen>
-        */-->
+    <PreferenceScreen
+        android:icon="@drawable/ic_setting_navbar"
+        android:summary="@string/NavBarSummary"
+        android:title="@string/NavBarTitle">
+        <PreferenceCategory
+            android:title="@string/NavBarColor">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="unlock_navbar_colors"
+                android:summaryOff="@string/PullDownLock"
+                android:summaryOn="@string/PullDownUnlock"
+                android:title="@string/PullDownColor"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#fffafafa"
+                android:dependency="unlock_navbar_colors"
+                android:key="navbar_icon_color"
+                android:title="@string/NavBarIconColor"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="dynamic_navbar"
+                android:title="@string/NavBarStatusBarColor"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
 
     <PreferenceScreen
         android:icon="@drawable/ic_setting_recent"
