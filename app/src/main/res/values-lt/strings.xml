@@ -438,10 +438,11 @@
     <string name="MiscImmersiveArrayHideSta">Slėpti Būsenos juostą</string>
     <string name="MiscImmersiveArrayHideNav">Slėpti Navigaciją</string>
     <string name="MiscAODisplay">AOD (visada įjungtas ekranas) ryškumas</string>
-    <string name="NavBarColor">NavBar Colors</string>
-    <string name="NavBarIconColor">NavBar Icon Color</string>
-    <string name="NavBarTitle">Navigation Bar</string>
-    <string name="NavBarSummary">This settings contains navbar mods</string>
+    <string name="NavBarStatusBarColor">Nustatyti tokią pat NavBar spalvą kaip ir Būsenos juosta (kadangi programa nekeičia spalvos)</string>
+    <string name="NavBarColor">NavBar Spalvos</string>
+    <string name="NavBarIconColor">NavBar Piktogramos spalva</string>
+    <string name="NavBarTitle">Navigacijos sjuosta</string>
+    <string name="NavBarSummary">Šiuose nustatymuose yra Navigacijos juostos modifikacijos</string>
     <string name="Ambient">Aplinkos Ekranas (Ambient Display)</string>
     <string name="AmbientTitle">Aplinkos ekrano (Ambient Display) nustatymai</string>
     <string name="AmbientPickUp">Aplinkos ekranas (Ambient Display) rodomas kai gaunamas pranešimas</string>

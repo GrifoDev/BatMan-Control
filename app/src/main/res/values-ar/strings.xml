@@ -438,10 +438,11 @@
     <string name="MiscImmersiveArrayHideSta">إخفاء شريط الحالة</string>
     <string name="MiscImmersiveArrayHideNav">إخفاء أزرار التنقل</string>
     <string name="MiscAODisplay">سطوع AOD</string>
-    <string name="NavBarColor">NavBar Colors</string>
-    <string name="NavBarIconColor">NavBar Icon Color</string>
-    <string name="NavBarTitle">Navigation Bar</string>
-    <string name="NavBarSummary">This settings contains navbar mods</string>
+    <string name="NavBarStatusBarColor">دع شريط التنقل يختار اللون من شريط الحالة (ما دام التطبيق لا يفرض لونا)</string>
+    <string name="NavBarColor">ألوان شريط التنقل</string>
+    <string name="NavBarIconColor">لون أيقونة شريط التنقل</string>
+    <string name="NavBarTitle">شريط التنقل</string>
+    <string name="NavBarSummary">هذه الإعدادات تحتوي على تعديلات شريط التنقل</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">إعدادات Ambient display</string>
     <string name="AmbientPickUp">ستظهر Ambient display بعد التقاط الهاتف</string>

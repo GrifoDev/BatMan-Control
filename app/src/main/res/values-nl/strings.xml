@@ -439,10 +439,11 @@
     <string name="MiscImmersiveArrayHideSta">Verberg StatusBalk</string>
     <string name="MiscImmersiveArrayHideNav">Verberg Navigatiebalk</string>
     <string name="MiscAODisplay">AOD helderheid</string>
-    <string name="NavBarColor">NavBar Colors</string>
-    <string name="NavBarIconColor">NavBar Icon Color</string>
-    <string name="NavBarTitle">Navigation Bar</string>
-    <string name="NavBarSummary">This settings contains navbar mods</string>
+    <string name="NavBarStatusBarColor">Krijg dezelfde navigatiebalk kleur als die van de statusbalk (zolang een app geen kleur forceert) </string> 
+    <string name="NavBarColor">Navigatiebalk kleur</string> 
+    <string name="NavBarIconColor">Navigatiebalk Ikoon kleur</string> 
+    <string name="NavBarTitle">Navigatie Balk</string> 
+    <string name="NavBarSummary">Deze instelling bevat navigatiebalk aanpassingen</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Ambient display instellingen</string>
     <string name="AmbientPickUp">Ambient display zichtbaar bij oppakken</string>

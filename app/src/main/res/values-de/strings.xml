@@ -678,4 +678,5 @@
     <string name="multiple_choice_preference_button_done">Erledigt</string>
     <string name="select_all">Wähle alle aus</string>
     <string name="select_all_label">Alle</string>
+    <string name="NavBarStatusBarColor">Übernimmt dieselbe Farbe auf der NavBar wie in der Statusleiste (nur wenn die App keine Farbe vorgibt)</string>
 </resources>

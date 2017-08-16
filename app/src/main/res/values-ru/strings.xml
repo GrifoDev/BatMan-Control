@@ -438,10 +438,11 @@
     <string name="MiscImmersiveArrayHideSta">Спрятать строку состояния</string>
     <string name="MiscImmersiveArrayHideNav">Спрятать кнопки навигации</string>
     <string name="MiscAODisplay">Яркость AOD</string>
-    <string name="NavBarColor">NavBar Colors</string>
-    <string name="NavBarIconColor">NavBar Icon Color</string>
+    <string name="NavBarStatusBarColor">Цвет NavBar как у строки состояния (если приложение не изменяет цвет)</string>
+    <string name="NavBarColor">Цвета NavBar</string>
+    <string name="NavBarIconColor">Цвет иконки NavBar</string>
     <string name="NavBarTitle">Navigation Bar</string>
-    <string name="NavBarSummary">This settings contains navbar mods</string>
+    <string name="NavBarSummary">Настройки модов NavBar</string>
     <string name="Ambient">Экран Ambient Display</string>
     <string name="AmbientTitle">Настройки экрана Ambient display</string>
     <string name="AmbientPickUp">Ambient display будет отображаться когда Вы возьмете телефон в руки</string>

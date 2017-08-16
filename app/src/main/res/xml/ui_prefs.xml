@@ -951,6 +951,13 @@
                 android:summaryOn="@string/On"
                 android:title="@string/MiscUBS"
                 app:rebootDevice="true" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="3000"
+                android:entries="@array/button_key_light_entries"
+                android:entryValues="@array/button_key_light_values"
+                android:key="button_key_light"
+                android:summary="%s"
+                android:title="@string/MiscKeyboard" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="torchlight_enable"

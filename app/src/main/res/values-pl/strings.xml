@@ -438,10 +438,11 @@
     <string name="MiscImmersiveArrayHideSta">Ukryć StatusBar</string>
     <string name="MiscImmersiveArrayHideNav">Ukryć Navigation</string>
     <string name="MiscAODisplay">Jasność Always On Display</string>
-    <string name="NavBarColor">NavBar Colors</string>
-    <string name="NavBarIconColor">NavBar Icon Color</string>
-    <string name="NavBarTitle">Navigation Bar</string>
-    <string name="NavBarSummary">This settings contains navbar mods</string>
+    <string name="NavBarStatusBarColor">Dostaj ten sam kolor NavBar na pasku stanu (tak długo, jak aplikacja nie zmusza do uzyskania koloru)</string>
+    <string name="NavBarColor">Kolory NavBar</string>
+    <string name="NavBarIconColor">Kolor ikony programu NavBar</string>
+    <string name="NavBarTitle">Pasek nawigacyjny</string>
+    <string name="NavBarSummary">Te ustawienia zawierają modbar navbar</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Ustawienia Ambient display</string>
     <string name="AmbientPickUp">Ambient Display wyświetli, kiedy podniesiesz telefon</string>

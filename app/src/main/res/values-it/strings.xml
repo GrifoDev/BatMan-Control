@@ -438,10 +438,11 @@
     <string name="MiscImmersiveArrayHideSta">Nascondi StatusBar</string>
     <string name="MiscImmersiveArrayHideNav">Nascondi barra navigazione</string>
     <string name="MiscAODisplay">AOD brightness</string>
-    <string name="NavBarColor">NavBar Colors</string>
-    <string name="NavBarIconColor">NavBar Icon Color</string>
+    <string name="NavBarStatusBarColor">Ottieni lo stesso colore della NavBar dal colore della StatusBar (a meno che un app non ne definisca uno proprio)</string>
+    <string name="NavBarColor">Colori della NavBar</string>
+    <string name="NavBarIconColor">Colore icona NavBar</string>
     <string name="NavBarTitle">Navigation Bar</string>
-    <string name="NavBarSummary">This settings contains navbar mods</string>
+    <string name="NavBarSummary">Questa opzione contiene preferenze della NavBar</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Preferenze Ambient display</string>
     <string name="AmbientPickUp">L\'ambient display illumina lo schermo al sollevare del telefono</string>

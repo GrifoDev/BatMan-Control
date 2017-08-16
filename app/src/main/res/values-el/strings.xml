@@ -438,10 +438,11 @@
     <string name="MiscImmersiveArrayHideSta">Êñýøå ôçí ìðÜñá êáôÜóôáóçò</string>
     <string name="MiscImmersiveArrayHideNav">Êñýøå ôçí ðëïÞãçóç</string>
     <string name="MiscAODisplay">Φωτεινότητα AOD</string>
-    <string name="NavBarColor">NavBar Colors</string>
-    <string name="NavBarIconColor">NavBar Icon Color</string>
-    <string name="NavBarTitle">Navigation Bar</string>
-    <string name="NavBarSummary">This settings contains navbar mods</string>
+    <string name="NavBarStatusBarColor">Χρησιμοποιεί το ίδιο χρώμα με την μπάρα κατάστασης (όσο η εφαρμογή δεν χρησιμοποιεί κάποιο χρώμα)</string>
+    <string name="NavBarColor">Χρωματισμός NavBar</string>
+    <string name="NavBarIconColor">Χρωματισμός εικονιδίου NavBar</string>
+    <string name="NavBarTitle">Τίτλος NavBar</string>
+    <string name="NavBarSummary">Αυτές οι επιλογές περιέχουν mods για την navbar</string>
     <string name="Ambient">Οθόνη Ambient Display</string>
     <string name="AmbientTitle">Επιλογές οθόνης Ambient Display</string>
     <string name="AmbientPickUp">Εμφάνιση της οθόνης Ambient όταν πιάσετε την συσκευή</string>

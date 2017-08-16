@@ -438,10 +438,11 @@
     <string name="MiscImmersiveArrayHideSta">Masquer barre statut</string>
     <string name="MiscImmersiveArrayHideNav">Masquer Navigation</string>
     <string name="MiscAODisplay">AOD luminosité</string>
-    <string name="NavBarColor">NavBar Colors</string>
-    <string name="NavBarIconColor">NavBar Icon Color</string>
-    <string name="NavBarTitle">Navigation Bar</string>
-    <string name="NavBarSummary">This settings contains navbar mods</string>
+    <string name="NavBarStatusBarColor">Avoir la même couleur dans la barre que la couleur de barre statut (sauf si une appli ne force pas la couleur)</string>
+    <string name="NavBarColor">Couleur de la barre navigation</string>
+    <string name="NavBarIconColor">Couleurs des icônes dans la barre</string>
+    <string name="NavBarTitle">Barre de Navigation</string>
+    <string name="NavBarSummary">Paramètres contenants modifications Barre de navigation</string>
     <string name="Ambient">Ecran ambiant</string>
     <string name="AmbientTitle">Paramètres de l\'écran ambiant</string>
     <string name="AmbientPickUp">L\'écran ambiant s\'affiche aux mouvements</string>

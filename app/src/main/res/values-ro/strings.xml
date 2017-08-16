@@ -438,10 +438,11 @@
     <string name="MiscImmersiveArrayHideSta">Ascunde StatusBar</string>
     <string name="MiscImmersiveArrayHideNav">Ascunde Navigation</string>
     <string name="MiscAODisplay">Luminozitatea AOD</string>
-    <string name="NavBarColor">NavBar Colors</string>
-    <string name="NavBarIconColor">NavBar Icon Color</string>
-    <string name="NavBarTitle">Navigation Bar</string>
-    <string name="NavBarSummary">This settings contains navbar mods</string>
+    <string name="NavBarStatusBarColor">Aceeasi culoare pentru NavBar ca si Statusbar (cat timp aplicatia nu seteaza o culoare)</string>
+    <string name="NavBarColor">Culori Bara de Navigatie</string>
+    <string name="NavBarIconColor">Culoare icon Bara de Navigatie</string>
+    <string name="NavBarTitle">Bara de Navigatie</string>
+    <string name="NavBarSummary">Aceasta setare contine customizari pentru Bara de Navigatie</string>
     <string name="Ambient">Display Ambiental</string>
     <string name="AmbientTitle">Setari Afisaj Ambiental</string>
     <string name="AmbientPickUp">Afiseaza Ambient Display cand se ridica telefonul</string>

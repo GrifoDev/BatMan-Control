@@ -438,10 +438,11 @@
     <string name="MiscImmersiveArrayHideSta">Esconder barra de status</string>
     <string name="MiscImmersiveArrayHideNav">Esconder barra de navegação</string>
     <string name="MiscAODisplay">Brilho AOD</string>
-    <string name="NavBarColor">NavBar Colors</string>
-    <string name="NavBarIconColor">NavBar Icon Color</string>
-    <string name="NavBarTitle">Navigation Bar</string>
-    <string name="NavBarSummary">This settings contains navbar mods</string>
+    <string name="NavBarStatusBarColor">Colorir a barra de navegação igual a de status(desde que o aplicativo não impeça)</string>
+    <string name="NavBarColor">Cores da barra de navegação</string>
+    <string name="NavBarIconColor">Cores dos ícones da barra de navegação</string>
+    <string name="NavBarTitle">Barra de navegação</string>
+    <string name="NavBarSummary">Estas configurações são relacionadas a barra de navegação</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Configurações do Ambient display</string>
     <string name="AmbientPickUp">O Ambient Display será exibido ao pegar o celular</string>

@@ -438,10 +438,11 @@
     <string name="MiscImmersiveArrayHideSta">Göm StatusBar</string>
     <string name="MiscImmersiveArrayHideNav">Göm Navigation</string>
     <string name="MiscAODisplay">AOD-ljusstyrka</string>
+    <string name="NavBarStatusBarColor">Få samma färg på NavBar som på statusbaren (såvida inte appen tvingar användning av en färg)</string>
     <string name="NavBarColor">NavBar Colors</string>
-    <string name="NavBarIconColor">NavBar Icon Color</string>
-    <string name="NavBarTitle">Navigation Bar</string>
-    <string name="NavBarSummary">This settings contains navbar mods</string>
+    <string name="NavBarIconColor">Färg på NavBar ikoner</string>
+    <string name="NavBarTitle">Navigationsbar</string>
+    <string name="NavBarSummary">Den här inställningen innehåller navbar modifikationer</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Inställningar för Ambient Display</string>
     <string name="AmbientPickUp">Ambient display kommer visas när du tar upp telefonen</string>

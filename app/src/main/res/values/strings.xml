@@ -440,7 +440,7 @@
     <string name="MiscImmersiveArrayHideSta">Hide StatusBar</string>
     <string name="MiscImmersiveArrayHideNav">Hide Navigation</string>
     <string name="MiscAODisplay">AOD brightness</string>
-    <string name="NavBarStatusBarColor">Get the same NavBar color as the statusbar</string>
+    <string name="NavBarStatusBarColor">Get the same NavBar color as the statusbar (as long the app does not force a color)</string>
     <string name="NavBarColor">NavBar Colors</string>
     <string name="NavBarIconColor">NavBar Icon Color</string>
     <string name="NavBarTitle">Navigation Bar</string>
