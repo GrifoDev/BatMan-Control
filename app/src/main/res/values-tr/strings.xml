@@ -438,11 +438,11 @@
     <string name="MiscImmersiveArrayHideSta">Durum çubuğunu gizle</string>
     <string name="MiscImmersiveArrayHideNav">Gizle Navigation</string>
     <string name="MiscAODisplay">AOD parlaklık</string>
-    <string name="NavBarStatusBarColor">Durum çubuðuyla ayný NavBar rengini elde edin (uygulama bir rengi zorlamadýðý sürece)</string>
-    <string name="NavBarColor">Alt Sanal Tuþ Rengi</string>
-    <string name="NavBarIconColor">Alt Sanal Tuþ Ýkon Rengi</string>
-    <string name="NavBarTitle">Alt Sanal Tuþlar</string>
-    <string name="NavBarSummary">Bu ayarlar Alt Sanal Tuþ modlarýný içerir</string>
+    <string name="NavBarStatusBarColor">Durum Çubuğu İle Aynı Navbar Rengi</string>
+    <string name="NavBarColor">Alt Sanal NavBar İkon Ayarları</string>
+    <string name="NavBarIconColor">Alt Sanal NavBar Tuşların Rengi</string>
+    <string name="NavBarTitle">Alt Sanal NavBar İkon Ayarları</string>
+    <string name="NavBarSummary">S8 Sanal NavBar İkonu Özeleştirebilirsiniz</string>
     <string name="Ambient">Ambient Display Ayarları</string>
     <string name="AmbientTitle">Ambient Display Görünüm - Süre Ayarları</string>
     <string name="AmbientPickUp">A.Display Yakalandıklarında Gösterecek</string>
