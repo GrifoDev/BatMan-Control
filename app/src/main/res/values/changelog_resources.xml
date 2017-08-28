@@ -9,13 +9,13 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items" translatable="false">
-        <item>Rebased on latest AQGB release</item>
-        <item>Latest July patch</item>
-        <item>Updated Magisk to 13.3</item>
-        <item>NavBar color options in romcontrol</item>
-        <item>SuperSU updated to 2.82 SR2</item>
-        <item>Busybox updated to 1.27.1</item>
-        <item>All kernels updated to recent version</item>
+        <item>Rebased on latest AQH3 release</item>
+        <item>Latest August patch</item>
+        <item>Updated Magisk to 13.6</item>
+        <item>NavBar can be enabled or disabled in romcontrol</item>
+        <item>SuperSU updated to 2.82 SR3</item>
+        <item>Change navbar height in romcontrol </item>
+        <item>All kernels updated to AQH3 version</item>
         <item>Small under the hood fixes for s7 variants</item>
         <item>Many more things, please check XDA or grifodev.ch</item>
     </string-array>
@@ -23,7 +23,7 @@
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog" translatable="false">BatMan-Rom V1.2.0</string>
+    <string name="rom_version_for_changelog" translatable="false">BatMan-Rom V1.3.0</string>
 
 
 </resources>

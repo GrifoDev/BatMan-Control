@@ -232,8 +232,9 @@
     <string name="WalkingDeadBirth">Walking Dead Birth</string>
     <string name="WalkingWolf">Walking Wolf</string>
     <string name="WavingFrozen">Waving Frozen</string>
-    <string name="SMLogoRed">SuperMan Logo σε κόκκινο</string>
-    <string name="SMLogoBlue">SuperMan Logo σε μπλέ</string>
+    <string name="SMLogoRed">BatMan Logo σε κόκκινο</string>
+    <string name="SMLogoBlue">BatMan Logo σε μπλέ</string>
+    <string name="SMLogoBlack">BatMan Logo in Black</string>
     <string name="CurrentlyRemoved">Αφαιρέθηκε</string>
     <string name="RestartToggleSummary">Εμφάνιση διακόπτη επανεκκίνησης</string>
     <string name="RestartToggle">Επανεκκίνηση</string>
@@ -313,7 +314,8 @@
     <string name="SFinder">sFinder στο μενού pulldown</string>
     <string name="DoubleTapSleep">Διπλό κλίκ για ύπνο για την μπάρα κατάστασης</string>
     <string name="BrightnessWarning">Μηνύματα αυξημένης φωτεινότητας</string>
-    <string name="VolumeWarning">Προειδοποίηση ένατσης</string>
+    <string name="VolumeWarning">Προειδοποίηση έντασης</string>
+    <string name="ForceExpand">Αναπτύσσει όλες τις ειδοποιήσεις</string>
     <string name="BrightnessSlider">Μπάρα φωτεινότητας στο μενού pulldown</string>
     <string name="NotificationShape">Σχήμα φόντου ειδοποιήσεων</string>
     <string name="StockShape">Εργοστασιακό</string>
@@ -443,6 +445,8 @@
     <string name="NavBarIconColor">Χρωματισμός εικονιδίου NavBar</string>
     <string name="NavBarTitle">Τίτλος NavBar</string>
     <string name="NavBarSummary">Αυτές οι επιλογές περιέχουν mods για την navbar</string>
+    <string name="NavBarHeightTitle">Επιτρέπει την τροποποίηση του ύψους της NavBar</string>
+    <string name="NavBarHeight">Αλλαγή του ύψους της NavBar</string>
     <string name="Ambient">Οθόνη Ambient Display</string>
     <string name="AmbientTitle">Επιλογές οθόνης Ambient Display</string>
     <string name="AmbientPickUp">Εμφάνιση της οθόνης Ambient όταν πιάσετε την συσκευή</string>
@@ -555,6 +559,7 @@
     <string name="Signal14">Σήμα 14</string>
     <string name="Signal15">Σήμα 15</string>
     <string name="Signal16">Σήμα 16</string>
+    <string name="Signal17">Σήμα 17</string>
     <string name="SignalStockArrows">Εργοστασιακά βέλη</string>
     <string name="SignalNoArrows">Χωρίς βέλη</string>
     <string name="SignalAlarm1">Ξυπνητήρι 1 (εργοστασιακό)</string>
@@ -613,6 +618,7 @@
     <string name="LockscreenMiscCarrierSet">Τροποποιημένη λέξη</string>
     <string name="LockscreenMiscWake">Ξεκλείδωμα με δακτυλικό αποτύπωμα, χωρίς να περπατήσει στην οθόνη πρώτα</string>
     <string name="LockscreenMiscClock">Εναλλαγή ρολογιού S8 και S7</string>
+    <string name="LockscreenMiscQuickSetting">Κλειδώνει το pulldown μενού στην οθόνη κλειδώματος</string>
     <string name="LockscreenAnalogTitle">Αναλογικό ρολόι</string>
     <string name="LockscreenAnalog">Αναλογικό ρολόι στην οθόνη κλειδώματος</string>
     <string name="LockscreenAnalog1">Στύλ 1</string>

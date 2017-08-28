@@ -232,8 +232,9 @@
     <string name="WalkingDeadBirth">Walking Dead Birth</string>
     <string name="WalkingWolf">Walking Wolf</string>
     <string name="WavingFrozen">Waving Frozen</string>
-    <string name="SMLogoRed">Красный логотип SuperMan</string>
-    <string name="SMLogoBlue">Синий логотип SuperMan</string>
+    <string name="SMLogoRed">Красный логотип BatMan</string>
+    <string name="SMLogoBlue">Синий логотип BatMan</string>
+    <string name="SMLogoBlack">черный логотип BatMan</string>
     <string name="CurrentlyRemoved">Удалено</string>
     <string name="RestartToggleSummary">Будет показан переключатель Перезагрузить</string>
     <string name="RestartToggle">Переключатель Перезагрузить</string>
@@ -314,6 +315,7 @@
     <string name="DoubleTapSleep">Дважды нажать на строке состояния чтобы усыпить устройство</string>
     <string name="BrightnessWarning">Предупреждение о высокой яркости</string>
     <string name="VolumeWarning">Предупреждение о повышенной громкости</string>
+    <string name="ForceExpand">Показывать все уведомления</string>
     <string name="BrightnessSlider">Ползунок яркости в раскрывающемся меню</string>
     <string name="NotificationShape">Форма фона уведомлений</string>
     <string name="StockShape">Стандартный вид</string>
@@ -443,6 +445,8 @@
     <string name="NavBarIconColor">Цвет иконки NavBar</string>
     <string name="NavBarTitle">Navigation Bar</string>
     <string name="NavBarSummary">Настройки модов NavBar</string>
+    <string name="NavBarHeightTitle">Разрешить редактирование высоты NavBar</string>
+    <string name="NavBarHeight">Изменить высоту NavBar</string>
     <string name="Ambient">Экран Ambient Display</string>
     <string name="AmbientTitle">Настройки экрана Ambient display</string>
     <string name="AmbientPickUp">Ambient display будет отображаться когда Вы возьмете телефон в руки</string>
@@ -555,6 +559,7 @@
     <string name="Signal14">Сигнал 14</string>
     <string name="Signal15">Сигнал 15</string>
     <string name="Signal16">Сигнал 16</string>
+    <string name="Signal17">Сигнал 17</string>
     <string name="SignalStockArrows">Стандартные стрелки</string>
     <string name="SignalNoArrows">Без стрелок, при больших Wifi иконках </string>
     <string name="SignalAlarm1">Будильник 1 (Стандартный)</string>
@@ -613,6 +618,7 @@
     <string name="LockscreenMiscCarrierSet">Установить персональный текст Сотового оператора</string>
     <string name="LockscreenMiscWake">Разблокировка устройства отпечатком пальца без пробуждение дисплея</string>
     <string name="LockscreenMiscClock">Переключение между часами от S8 и S7</string>
+    <string name="LockscreenMiscQuickSetting">Заблокировать ниспадающее меню на экране блокировки</string>
     <string name="LockscreenAnalogTitle">Аналоговые Часы</string>
     <string name="LockscreenAnalog">Аналоговые Часы на Экране блокировки</string>
     <string name="LockscreenAnalog1">Стиль 1</string>

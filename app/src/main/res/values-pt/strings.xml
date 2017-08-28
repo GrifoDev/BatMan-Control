@@ -232,8 +232,9 @@
     <string name="WalkingDeadBirth">Aniversário Walking Dead</string>
     <string name="WalkingWolf">Lobo Andando</string>
     <string name="WavingFrozen">Olaf Acenando</string>
-    <string name="SMLogoRed">SuperMan Logo Vermelho</string>
-    <string name="SMLogoBlue">SuperMan Logo Azul</string>
+    <string name="SMLogoRed">BatMan Logo Vermelho</string>
+    <string name="SMLogoBlue">BatMan Logo Azul</string>
+    <string name="SMLogoBlack">BatMan Logo Preto</string>
     <string name="CurrentlyRemoved">Removido Atualmente</string>
     <string name="RestartToggleSummary">O botão de reiniciar será exibido</string>
     <string name="RestartToggle">Botão Reiniciar</string>
@@ -314,6 +315,7 @@
     <string name="DoubleTapSleep">Toque duplo para desligar na barra de status</string>
     <string name="BrightnessWarning">Desativar aviso de brilho muito alto</string>
     <string name="VolumeWarning">Aviso de volume alto</string>
+    <string name="ForceExpand">Forçar a expansão de todas as notificações</string>
     <string name="BrightnessSlider">Barra de brilho acima do painel de notificações</string>
     <string name="NotificationShape">Fundo da notificação</string>
     <string name="StockShape">Estilo padrão</string>
@@ -443,6 +445,8 @@
     <string name="NavBarIconColor">Cores dos ícones da barra de navegação</string>
     <string name="NavBarTitle">Barra de navegação</string>
     <string name="NavBarSummary">Estas configurações são relacionadas a barra de navegação</string>
+    <string name="NavBarHeightTitle">Permite alterar a altura da barra de navegação</string>
+    <string name="NavBarHeight">Altere a altura da sua barra de navegação</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Configurações do Ambient display</string>
     <string name="AmbientPickUp">O Ambient Display será exibido ao pegar o celular</string>
@@ -555,6 +559,7 @@
     <string name="Signal14">Sinal 14</string>
     <string name="Signal15">Sinal 15</string>
     <string name="Signal16">Sinal 16</string>
+    <string name="Signal17">Sinal 17</string>
     <string name="SignalStockArrows">Seta Padrão</string>
     <string name="SignalNoArrows">Sem seta para o ícone de WiFi</string>
     <string name="SignalAlarm1">Alarme 1 (Padrão)</string>
@@ -613,6 +618,7 @@
     <string name="LockscreenMiscCarrierSet">Definir texto customizado</string>
     <string name="LockscreenMiscWake">Usar o sensor de digitais sem ter que ligar a tela antes</string>
     <string name="LockscreenMiscClock">Alterar entre o relógio do S8 ou S7</string>
+    <string name="LockscreenMiscQuickSetting">Travar a barra de status na tela de bloqueio</string>
     <string name="LockscreenAnalogTitle">Relógio analógico</string>
     <string name="LockscreenAnalog">Relógio analógico na tela de bloqueio</string>
     <string name="LockscreenAnalog1">Estilo 1</string>
@@ -678,7 +684,7 @@
     <string name="AboutTelegramChannel">Canal sobre as notícias da ROM no Telegram</string>
     <string name="AboutTelegramChatSummary">Converse conosco sobre as últimas funções da ROM</string>
     <string name="AboutTelegramChannelSummary">Obtenha as últimas informações sobre a ROM</string>
-     <string name="AboutPlayStore">Google PlayStore App</string>
+    <string name="AboutPlayStore">Google PlayStore App</string>
     <string name="AboutPlayStoreSummary">Visite o app oficial na PlayStore e nos suporte</string>
     <string name="AboutGrifoDev">Comunidade GrifoDev</string>
     <string name="AboutGrifoDevSummary">Novo website/fórum</string>
@@ -687,7 +693,7 @@
     <string name="AboutAFHRom">Baixar a última BatMan-Rom</string>
     <string name="AboutAFHSuperKernel">Baixar a última BatKernel</string>
     <string name="AboutAFHSuperStockKernel">Baixar a última BatStock-Kernel</string>
-   <string name="AboutAFHCSC">Baixar a última CSC Selection</string>
+    <string name="AboutAFHCSC">Baixar a última CSC Selection</string>
     <string name="ContactUs">Contato</string>
     <string name="OurTeam">Our Team</string>
     <string name="CreditsThanks">Créditos e Agradecimentos</string>

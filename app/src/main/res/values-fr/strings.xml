@@ -232,8 +232,9 @@
     <string name="WalkingDeadBirth">Walking Dead Birth</string>
     <string name="WalkingWolf">Walking Wolf</string>
     <string name="WavingFrozen">Waving Frozen</string>
-    <string name="SMLogoRed">SuperMan Logo rouge</string>
-    <string name="SMLogoBlue">SuperMan Logo bleu</string>
+    <string name="SMLogoRed">BatMan Logo rouge</string>
+    <string name="SMLogoBlue">BatMan Logo bleu</string>
+    <string name="SMLogoBlack">BatMan Logo noir</string>
     <string name="CurrentlyRemoved">Actuellement inactif</string>
     <string name="RestartToggleSummary">Interrupteur de redémarrage sera affiché</string>
     <string name="RestartToggle">Interrupteur Redémarrer</string>
@@ -314,6 +315,7 @@
     <string name="DoubleTapSleep">Double tap barre du haut pour éteindre</string>
     <string name="BrightnessWarning">Désactiver avertis. haute luminosité</string>
     <string name="VolumeWarning">Avertissement de volume élevé</string>
+    <string name="ForceExpand">Forcer expansion des notifications</string>
     <string name="BrightnessSlider">Curseur luminosité menu déroulant</string>
     <string name="NotificationShape">Forme notification bg</string>
     <string name="StockShape">Aspect d\'origine</string>
@@ -443,6 +445,8 @@
     <string name="NavBarIconColor">Couleurs des icônes dans la barre</string>
     <string name="NavBarTitle">Barre de Navigation</string>
     <string name="NavBarSummary">Paramètres contenants modifications Barre de navigation</string>
+    <string name="NavBarHeightTitle">Autoriser changement de hauteur navbar</string>
+    <string name="NavBarHeight">Changer hauteur de la navbar</string>
     <string name="Ambient">Ecran ambiant</string>
     <string name="AmbientTitle">Paramètres de l\'écran ambiant</string>
     <string name="AmbientPickUp">L\'écran ambiant s\'affiche aux mouvements</string>
@@ -555,6 +559,7 @@
     <string name="Signal14">Signal 14</string>
     <string name="Signal15">Signal 15</string>
     <string name="Signal16">Signal 16</string>
+    <string name="Signal17">Signal 17</string>
     <string name="SignalStockArrows">Flèches Défaut</string>
     <string name="SignalNoArrows">Pas de flèches pour gros icônes</string>
     <string name="SignalAlarm1">Alarme 1 (Défaut)</string>
@@ -613,6 +618,7 @@
     <string name="LockscreenMiscCarrierSet">Assigner texte opérateur</string>
     <string name="LockscreenMiscWake">Déverrouillage effleurement empreinte</string>
     <string name="LockscreenMiscClock">Basculer entre horloge S8 et S7</string>
+    <string name="LockscreenMiscQuickSetting">Bloquer menu déroulant sur écran de verrouillage</string>
     <string name="LockscreenAnalogTitle">Horloge analogique</string>
     <string name="LockscreenAnalog">Horloge analogique sur écran verrouillage</string>
     <string name="LockscreenAnalog1">Style 1</string>

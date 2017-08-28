@@ -232,8 +232,9 @@
     <string name="WalkingDeadBirth">Vandrande dödfödd</string>
     <string name="WalkingWolf">Vandrande varg</string>
     <string name="WavingFrozen">Vinkande frusen</string>
-    <string name="SMLogoRed">Röd SuperMan-logotyp</string>
-    <string name="SMLogoBlue">Blå SuperMan-logotyp</string>
+    <string name="SMLogoRed">Röd BatMan-logotyp</string>
+    <string name="SMLogoBlue">Blå BatMan-logotyp</string>
+    <string name="SMLogoBlack">Svart BatMan-logotyp</string>
     <string name="CurrentlyRemoved">Tillfälligt borttagen</string>
     <string name="RestartToggleSummary">Toggle för omstart kommer att visas</string>
     <string name="RestartToggle">Omstartstoggle</string>
@@ -314,6 +315,7 @@
     <string name="DoubleTapSleep">Dubbelklicka på statusfältet för att släcka skärmen</string>
     <string name="BrightnessWarning">Stäng av varing för hög ljusstyrka</string>
     <string name="VolumeWarning">Varning för hög volym</string>
+    <string name="ForceExpand">Tvinga alla notifikationer att expandera</string>
     <string name="BrightnessSlider">Justera ljustyrka på pulldown-menyn</string>
     <string name="NotificationShape">Notifikation bg form</string>
     <string name="StockShape">Stock look</string>
@@ -443,6 +445,8 @@
     <string name="NavBarIconColor">Färg på NavBar ikoner</string>
     <string name="NavBarTitle">Navigationsbar</string>
     <string name="NavBarSummary">Den här inställningen innehåller navbar modifikationer</string>
+    <string name="NavBarHeightTitle">Tillåt NavBar höjden att ändras</string>
+    <string name="NavBarHeight">Ändra NavBar höjden</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Inställningar för Ambient Display</string>
     <string name="AmbientPickUp">Ambient display kommer visas när du tar upp telefonen</string>
@@ -555,6 +559,7 @@
     <string name="Signal14">Signal 14</string>
     <string name="Signal15">Signal 15</string>
     <string name="Signal16">Signal 16</string>
+    <string name="Signal17">Signal 17</string>
     <string name="SignalStockArrows">Standardpilar</string>
     <string name="SignalNoArrows">Inga pilar för stora wifi ikoner</string>
     <string name="SignalAlarm1">Alarm 1 (Standard)</string>
@@ -613,6 +618,7 @@
     <string name="LockscreenMiscCarrierSet">Sätt egen text</string>
     <string name="LockscreenMiscWake">Fingeravtryck upplåsning utan att slå på skärmen först</string>
     <string name="LockscreenMiscClock">Byt mellan klockan för S8 och S7</string>
+    <string name="LockscreenMiscQuickSetting">Lås neddragningsmenyn på låsskärmen</string>
     <string name="LockscreenAnalogTitle">Analog klocka</string>
     <string name="LockscreenAnalog">Analog klocka på låsskärmen</string>
     <string name="LockscreenAnalog1">Stil 1</string>

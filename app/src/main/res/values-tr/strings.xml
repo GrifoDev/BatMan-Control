@@ -232,8 +232,9 @@
     <string name="WalkingDeadBirth">Walking Dead Birth</string>
     <string name="WalkingWolf">Walking Wolf</string>
     <string name="WavingFrozen">Waving Frozen</string>
-    <string name="SMLogoRed">Kırmızı SuperMan Logosu</string>
-    <string name="SMLogoBlue">Mavi SuperMan Logosu</string>
+    <string name="SMLogoRed">Kırmızı BatMan Logosu</string>
+    <string name="SMLogoBlue">Mavi BatMan Logosu</string>
+    <string name="SMLogoBlack">Siyah BatMan Logosu</string>
     <string name="CurrentlyRemoved">..Devre Dışı..</string>
     <string name="RestartToggleSummary">.Etkinleştirildi.</string>
     <string name="RestartToggle">Yeniden Başlat Butonu</string>
@@ -314,6 +315,7 @@
     <string name="DoubleTapSleep">Kilit İçin D.Çubuğuna Çift Tık</string>
     <string name="BrightnessWarning">Yüksek Parlaklık Uyarısını Kapat</string>
     <string name="VolumeWarning">Yüksek ses uyarısı</string>
+    <string name="ForceExpand">Tüm bildirimleri zorla genişlet</string>
     <string name="BrightnessSlider">Üst Menüdeki Parlaklık Ayarlayıcısı</string>
     <string name="NotificationShape">Bildirim A.Plan Şekli</string>
     <string name="StockShape">Stok Görünüm</string>
@@ -443,6 +445,8 @@
     <string name="NavBarIconColor">Alt Sanal NavBar Tuşların Rengi</string>
     <string name="NavBarTitle">Alt Sanal NavBar İkon Ayarları</string>
     <string name="NavBarSummary">S8 Sanal NavBar İkonu Özeleştirebilirsiniz</string>
+    <string name="NavBarHeightTitle">Navbar Boyut Ayarına İzin Ver</string>
+    <string name="NavBarHeight">NavBar Yüksekliğini Değiştir</string>
     <string name="Ambient">Ambient Display Ayarları</string>
     <string name="AmbientTitle">Ambient Display Görünüm - Süre Ayarları</string>
     <string name="AmbientPickUp">A.Display Yakalandıklarında Gösterecek</string>
@@ -555,6 +559,7 @@
     <string name="Signal14">Sinyal 14</string>
     <string name="Signal15">Sinyal 15</string>
     <string name="Signal16">Sinyal 16</string>
+    <string name="Signal17">Sinyal 17</string>
     <string name="SignalStockArrows">Varsayılan Oklar</string>
     <string name="SignalNoArrows">Büyük Wifi Simgeleri İçin Ok Yok</string>
     <string name="SignalAlarm1">Alarm 1 (Varsayılan)</string>
@@ -613,6 +618,7 @@
     <string name="LockscreenMiscCarrierSet">Özel Operatör Adı.:</string>
     <string name="LockscreenMiscWake">Ekr.Uyandırmadan Parmak İzi Kilit Aç</string>
     <string name="LockscreenMiscClock">S8 ve S7 saatleri arasında geçiş</string>
+    <string name="LockscreenMiscQuickSetting">Kilit ekranında açılan menüyü kilitle</string>
     <string name="LockscreenAnalogTitle">Analog Saat Ayarları</string>
     <string name="LockscreenAnalog">Kilit Ekranında Analog Saat</string>
     <string name="LockscreenAnalog1">Biçim 1</string>

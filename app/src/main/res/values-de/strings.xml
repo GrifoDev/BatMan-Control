@@ -531,8 +531,8 @@
     <string name="PullDownNotificationFooter">Benachrichtigungs Footer Textfarbe</string>
     <string name="PullDownNotificationFooterBackground">Benachrichtigungs Footer Hintergrundfarbe</string>
     <string name="PullDownQuicksettingsSearchText">Schnelleinstellungs Suchleisten Textfarbe</string>
-    <string name="SMLogoBlue">Superman Logo in Blau</string>
-    <string name="SMLogoRed">Superman Logo in Rot</string>
+    <string name="SMLogoBlue">BatMan Logo in Blau</string>
+    <string name="SMLogoRed">BatMan Logo in Rot</string>
     <string name="PullDownQuicksettingsSearchBackground">Schnelleinstellungs Suchleisten Hintergrundfarbe</string>
     <string name="AboutAFH">Downloadlinks auf AFH</string>
     <string name="AboutAFHRom">Laden Sie die neuste Rom runter</string>
@@ -679,4 +679,10 @@
     <string name="select_all">Wähle alle aus</string>
     <string name="select_all_label">Alle</string>
     <string name="NavBarStatusBarColor">Übernimmt dieselbe Farbe auf der NavBar wie in der Statusleiste (nur wenn die App keine Farbe vorgibt)</string>
+    <string name="ForceExpand">Klappe alle Benachrichtigungen aus</string>
+    <string name="LockscreenMiscQuickSetting">Sperre das Pulldown Menü auf dem Sperrbildschirm</string>
+    <string name="SMLogoBlack">BatMan Logo in Schwarz</string>
+    <string name="Signal17">Signal 17</string>
+    <string name="NavBarHeight">Ändern Sie die NavBar Höhe</string>
+    <string name="NavBarHeightTitle">Erlaubt die Veränderung der NavBar Höhe</string>
 </resources>

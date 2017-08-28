@@ -232,8 +232,9 @@
     <string name="WalkingDeadBirth">Walking Dead Birth</string>
     <string name="WalkingWolf">Walking Wolf</string>
     <string name="WavingFrozen">Waving Frozen</string>
-    <string name="SMLogoRed">SuperMan Logo in rosso</string>
-    <string name="SMLogoBlue">SuperMan Logo in blu</string>
+    <string name="SMLogoRed">BatMan Logo in rosso</string>
+    <string name="SMLogoBlue">BatMan Logo in blu</string>
+    <string name="SMLogoBlack">BatMan Logo in nero</string>
     <string name="CurrentlyRemoved">Attualmente rimosso</string>
     <string name="RestartToggleSummary">Toggle riavvio visibile</string>
     <string name="RestartToggle">Toggle riavvio</string>
@@ -314,6 +315,7 @@
     <string name="DoubleTapSleep">Doppio tap sulla statusbar per bloccare</string>
     <string name="BrightnessWarning">Disabilita avviso alta luminosità</string>
     <string name="VolumeWarning">Avviso volume eccessivo</string>
+    <string name="ForceExpand">Forza l\'espansione delle notifiche</string>
     <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
     <string name="NotificationShape">Forma sfondo notifiche</string>
     <string name="StockShape">Forma originale</string>
@@ -443,6 +445,8 @@
     <string name="NavBarIconColor">Colore icona NavBar</string>
     <string name="NavBarTitle">Navigation Bar</string>
     <string name="NavBarSummary">Questa opzione contiene preferenze della NavBar</string>
+    <string name="NavBarHeightTitle">Permetti la modifica del altezza della barra di navigazione</string>
+    <string name="NavBarHeight">Modifica altezza della barra di navigazione</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Preferenze Ambient display</string>
     <string name="AmbientPickUp">L\'ambient display illumina lo schermo al sollevare del telefono</string>
@@ -554,7 +558,8 @@
     <string name="Signal13">Segnale 13</string>
     <string name="Signal14">Segnale 14</string>
     <string name="Signal15">Segnale 15</string>
-    <string name="Signal16">Segnale 16</string>
+    <string name="Signal16">Segnale 16</string>c
+    <string name="Signal17">Segnale 17</string>
     <string name="SignalStockArrows">No indicatori</string>
     <string name="SignalNoArrows">No indicatori per le icone wifi grandi</string>
     <string name="SignalAlarm1">Allarme 1 (Originale)</string>
@@ -613,6 +618,7 @@
     <string name="LockscreenMiscCarrierSet">Applica testo personalizzato</string>
     <string name="LockscreenMiscWake">Sblocca il telefono senza accendere lo schermo</string>
     <string name="LockscreenMiscClock">Cambia dal oroologio S8 a S7</string>
+    <string name="LockscreenMiscQuickSetting">Blocca il pannello notifiche nella schermata di blocco</string>
     <string name="LockscreenAnalogTitle">Orologio analogico</string>
     <string name="LockscreenAnalog">Orologio analogico sulla schermata di blocco</string>
     <string name="LockscreenAnalog1">Stile 1</string>

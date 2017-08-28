@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">BatMan Settings Free</string>
+    <string name="app_name">BM Settings Pro</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="dialog_color_picker">Pick Color</string>
@@ -42,7 +42,7 @@
     <string name="backup_file_prefix_date_format" translatable="false">dd-MM-yy_HH:mm</string>
     <string name="backup_file_suffix" translatable="false">_RCBackup</string>
     <string name="restore_complete_toast">Restore complete</string>
-    <string name="about">Welcome to BatMan</string>
+    <string name="about">Welcome to BM-Rom</string>
     <string name="systemui_prefs">SystemUI Settings</string>
     <string name="phone_prefs">Phone Settings</string>
     <string name="framework_prefs">Framework Preferences</string>
@@ -234,8 +234,9 @@
     <string name="WalkingDeadBirth">Walking Dead Birth</string>
     <string name="WalkingWolf">Walking Wolf</string>
     <string name="WavingFrozen">Waving Frozen</string>
-    <string name="SMLogoRed">SuperMan Logo in Red</string>
-    <string name="SMLogoBlue">SuperMan Logo in Blue</string>
+    <string name="SMLogoRed">BatMan Logo in Yellow</string>
+    <string name="SMLogoBlue">BatMan Logo in Blue</string>
+    <string name="SMLogoBlack">BatMan Logo in Black</string>
     <string name="CurrentlyRemoved">Currently removed</string>
     <string name="RestartToggleSummary">Restart toggle will be shown</string>
     <string name="RestartToggle">Restart Toggle</string>
@@ -316,6 +317,7 @@
     <string name="DoubleTapSleep">Double tab to sleep on statusbar</string>
     <string name="BrightnessWarning">High brightness warning</string>
     <string name="VolumeWarning">High volume warning</string>
+    <string name="ForceExpand">Force expand all notifications</string>
     <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
     <string name="NotificationShape">Notification bg shape</string>
     <string name="StockShape">Stock look</string>
@@ -444,7 +446,9 @@
     <string name="NavBarColor">NavBar Colors</string>
     <string name="NavBarIconColor">NavBar Icon Color</string>
     <string name="NavBarTitle">Navigation Bar</string>
-    <string name="NavBarSummary">This settings contains navbar mods</string>
+    <string name="NavBarSummary">This settings contains NavBar mods</string>
+    <string name="NavBarHeightTitle">Allow navbar height to be edited</string>
+    <string name="NavBarHeight">Change your NavBar Height</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Ambient display settings</string>
     <string name="AmbientPickUp">Ambient display will show when picked up</string>
@@ -557,6 +561,7 @@
     <string name="Signal14">Signal 14</string>
     <string name="Signal15">Signal 15</string>
     <string name="Signal16">Signal 16</string>
+    <string name="Signal17">Signal 17</string>
     <string name="SignalStockArrows">Stock Arrows</string>
     <string name="SignalNoArrows">No Arrows for big wifi icons</string>
     <string name="SignalAlarm1">Alarm 1 (Stock)</string>
@@ -615,6 +620,7 @@
     <string name="LockscreenMiscCarrierSet">Set Custom Text</string>
     <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenMiscClock">Switch between S8 and S7 clock</string>
+    <string name="LockscreenMiscQuickSetting">Lock the pulldown menu on lockscreen</string>
     <string name="LockscreenAnalogTitle">Analog Clock</string>
     <string name="LockscreenAnalog">Analog clock on Lockscreen</string>
     <string name="LockscreenAnalog1">Style 1</string>

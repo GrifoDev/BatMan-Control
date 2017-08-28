@@ -367,6 +367,12 @@
                 android:title="@string/LockscreenMiscAlarm"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="qs_lock"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/LockscreenMiscQuickSetting" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ffffffff"
                 android:dependency="hide_nextalarm"
@@ -448,22 +454,31 @@
                 android:summaryOn="@string/PullDownUnlock"
                 android:title="@string/PullDownColor"
                 app:isSilent="false"
-                app:packageNameToKill="com.android.systemui"/>
+                app:packageNameToKill="com.android.systemui" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_navbar_colors"
                 android:key="navbar_icon_color"
                 android:title="@string/NavBarIconColor"
                 app:isSilent="false"
-                app:packageNameToKill="com.android.systemui"/>
+                app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="custom_navbar_height"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/NavBarHeightTitle" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:defaultValue="128"
+                android:dependency="custom_navbar_height"
+                android:key="navbar_height"
+                android:title="@string/NavBarHeight" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="dynamic_navbar"
-                android:title="@string/NavBarStatusBarColor"
                 android:summaryOff="@string/Disabled"
                 android:summaryOn="@string/Enabled"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui"/>
+                android:title="@string/NavBarStatusBarColor" />
         </PreferenceCategory>
     </PreferenceScreen>
 

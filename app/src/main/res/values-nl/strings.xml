@@ -233,8 +233,9 @@
     <string name="WalkingDeadBirth">Walking Dead Birth</string>
     <string name="WalkingWolf">Walking Wolf</string>
     <string name="WavingFrozen">Waving Frozen</string>
-    <string name="SMLogoRed">SuperMan Logo in Rood</string>
-    <string name="SMLogoBlue">SuperMan Logo in Blauw</string>
+    <string name="SMLogoRed">BatMan Logo in Rood</string>
+    <string name="SMLogoBlue">BatMan Logo in Blauw</string>
+    <string name="SMLogoBlack">BatMan Logo in Zwart</string>
     <string name="CurrentlyRemoved">Op dit moment verwijderd</string>
     <string name="RestartToggleSummary">Herstart knop zal worden getoond</string>
     <string name="RestartToggle">Herstart knop</string>
@@ -315,6 +316,7 @@
     <string name="DoubleTapSleep">Double tap om te slapen op statusbalk</string>
     <string name="BrightnessWarning">Hoge helderheid waarschuwing</string>
     <string name="VolumeWarning">Hoog Volume Waarschuwing </string>
+    <string name="ForceExpand">Forceer uitklappen van alle notificaties</string>
     <string name="BrightnessSlider">Helderheid slider in pulldown menu</string>
     <string name="NotificationShape">Notification bg shape</string>
     <string name="StockShape">Stock uiterlijk</string>
@@ -444,6 +446,8 @@
     <string name="NavBarIconColor">Navigatiebalk Ikoon kleur</string> 
     <string name="NavBarTitle">Navigatie Balk</string> 
     <string name="NavBarSummary">Deze instelling bevat navigatiebalk aanpassingen</string>
+    <string name="NavBarHeightTitle">Sta toe navigatiebalk hoogte te bewerken</string> 
+    <string name="NavBarHeight">Verander hoogte navigatiebalk</string> 
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Ambient display instellingen</string>
     <string name="AmbientPickUp">Ambient display zichtbaar bij oppakken</string>
@@ -549,13 +553,14 @@
     <string name="Signal7">Signaal 7</string>
     <string name="Signal8">Signaal 8</string>
     <string name="Signal9">Signaal 9</string>
-    <string name="Signal10">Signal 10</string>
+    <string name="Signal10">Signaal 10</string>
     <string name="Signal11">Signaal 11</string>
     <string name="Signal12">Signaal 12</string>
     <string name="Signal13">Signaal 13</string>
     <string name="Signal14">Signaal 14</string>
     <string name="Signal15">Signaal 15</string>
     <string name="Signal16">Signaal 16</string>
+    <string name="Signal17">Signaal 17</string>
     <string name="SignalStockArrows">Stock Pijlen</string>
     <string name="SignalNoArrows">Geen Pijlen voor Grote wifi iconen</string>
     <string name="SignalAlarm1">Wekker 1 (Stock)</string>
@@ -614,6 +619,7 @@
     <string name="LockscreenMiscCarrierSet">Stel Aangrpaste Tekst In</string>
     <string name="LockscreenMiscWake">Ontgrendelen vingerafdruk zonder het scherm te wekken</string>
     <string name="LockscreenMiscClock">Wissel tussen S8 en S7 klok</string>
+    <string name="LockscreenMiscQuickSetting">Vergrendel pulldown menu op vergrendelscherm</string> 
     <string name="LockscreenAnalogTitle">Analoge Klok</string>
     <string name="LockscreenAnalog">Analoge klok op Vergrendelscherm</string>
     <string name="LockscreenAnalog1">Style 1</string>

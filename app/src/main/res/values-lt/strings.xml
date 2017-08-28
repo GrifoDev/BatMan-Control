@@ -232,8 +232,9 @@
     <string name="WalkingDeadBirth">Walking Dead Birth</string>
     <string name="WalkingWolf">Walking Wolf</string>
     <string name="WavingFrozen">Waving Frozen</string>
-    <string name="SMLogoRed">Raudonas SuperMan logotipas</string>
-    <string name="SMLogoBlue">Mėlynas SuperMan logotipas</string>
+    <string name="SMLogoRed">Raudonas BatMan logotipas</string>
+    <string name="SMLogoBlue">Mėlynas BatMan logotipas</string>
+    <string name="SMLogoBlack">Juodas BatMan logotipas</string>
     <string name="CurrentlyRemoved">Šiuo metu nerodoma</string>
     <string name="RestartToggleSummary">Bus rodomas Perkrovimo jungiklis</string>
     <string name="RestartToggle">Perkrovimo jungiklis</string>
@@ -314,6 +315,7 @@
     <string name="DoubleTapSleep">Užmigdo įrenginį, dvigubas Būsenos juostos bakstelėjimas</string>
     <string name="BrightnessWarning">Panaikina perspėjimą dėl per didelio ekrano ryškumo</string>
     <string name="VolumeWarning">Perdidelio garso įspėjimas</string>
+    <string name="ForceExpand">Priverstinis visų pranešimų išplėtimas</string>
     <string name="BrightnessSlider">Ryškumo Slankiklis Išplečiamąjame meniu</string>
     <string name="NotificationShape">Pranešimo fono forma</string>
     <string name="StockShape">Standartinė išvaizda</string>
@@ -443,6 +445,8 @@
     <string name="NavBarIconColor">NavBar Piktogramos spalva</string>
     <string name="NavBarTitle">Navigacijos sjuosta</string>
     <string name="NavBarSummary">Šiuose nustatymuose yra Navigacijos juostos modifikacijos</string>
+    <string name="NavBarHeightTitle">Leisti keisti NavBar aukštį</string>
+    <string name="NavBarHeight">Pakeisti naudojamo NavBar aukštį</string>
     <string name="Ambient">Aplinkos Ekranas (Ambient Display)</string>
     <string name="AmbientTitle">Aplinkos ekrano (Ambient Display) nustatymai</string>
     <string name="AmbientPickUp">Aplinkos ekranas (Ambient Display) rodomas kai gaunamas pranešimas</string>
@@ -555,6 +559,7 @@
     <string name="Signal14">Signalas 14</string>
     <string name="Signal15">Signalas 15</string>
     <string name="Signal16">Signalas 16</string>
+    <string name="Signal17">Signalas 17</string>
     <string name="SignalStockArrows">Numatytos Rodyklės</string>
     <string name="SignalNoArrows">Nerodyti rodyklių didelėms Wi-Fi piktogramoms</string>
     <string name="SignalAlarm1">Žadintuvas 1 (Numatytas)</string>
@@ -613,6 +618,7 @@
     <string name="LockscreenMiscCarrierSet">Nustatyti Individualų Tekstą</string>
     <string name="LockscreenMiscWake">Atrakinimas piršto anspaudu, nereikalauja pažadinti prietaisą</string>
     <string name="LockscreenMiscClock">S8 ir S7 laikrodžio versijų jungiklis</string>
+    <string name="LockscreenMiscQuickSetting">Neleisti Išplečiamojo menių užrakintame ekrane</string>
     <string name="LockscreenAnalogTitle">Analoginis Laikrodis</string>
     <string name="LockscreenAnalog">Analoginis laikrodis Užrakintame ekrane</string>
     <string name="LockscreenAnalog1">Stilius 1</string>

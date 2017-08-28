@@ -234,6 +234,7 @@
     <string name="WavingFrozen">Waving Frozen</string>
     <string name="SMLogoRed">شعار سوبرمان بالأحمر</string>
     <string name="SMLogoBlue">شعار سوبرمان بالأزرق</string>
+    <string name="SMLogoBlack">شعار سوبرمان بالأزرق</string>
     <string name="CurrentlyRemoved">تم إخفاؤها</string>
     <string name="RestartToggleSummary">سيظهر مبدل إعادة التشغيل</string>
     <string name="RestartToggle">مبدل إعادة التشغيل</string>
@@ -314,6 +315,7 @@
     <string name="DoubleTapSleep">نقر مزدوج على شريط الحالة لقفل الجهاز</string>
     <string name="BrightnessWarning">تعطيل التحذير عن السطوع العالي</string>
     <string name="VolumeWarning">تحذير الصوت العالي</string>
+    <string name="ForceExpand">فرض تمديد جميع الإشعارات</string>
     <string name="BrightnessSlider">تحديد السطوع على قائمة الانسدال</string>
     <string name="NotificationShape">شكل خلفية الإشعار</string>
     <string name="StockShape">المظهر الافتراضي</string>
@@ -443,6 +445,8 @@
     <string name="NavBarIconColor">لون أيقونة شريط التنقل</string>
     <string name="NavBarTitle">شريط التنقل</string>
     <string name="NavBarSummary">هذه الإعدادات تحتوي على تعديلات شريط التنقل</string>
+    <string name="NavBarHeightTitle">السماح بتعديل طول شريط التنقل</string>
+    <string name="NavBarHeight">تعديل طول شريط التنقل</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">إعدادات Ambient display</string>
     <string name="AmbientPickUp">ستظهر Ambient display بعد التقاط الهاتف</string>
@@ -555,6 +559,7 @@
     <string name="Signal14">الإشارة 14</string>
     <string name="Signal15">الإشارة 15</string>
     <string name="Signal16">الإشارة 16</string>
+    <string name="Signal17">الإشارة 17</string>
     <string name="SignalStockArrows">إشارات أصلية</string>
     <string name="SignalNoArrows">لا إشارات لأيقونات WiFi الكبيرة</string>
     <string name="SignalAlarm1">المنبه 1 (الأصلي)</string>
@@ -613,6 +618,7 @@
     <string name="LockscreenMiscCarrierSet">غير الإسم</string>
     <string name="LockscreenMiscWake">فتح الهاتف ببصمة الأصبع من دون الحاجة إلى إيقاظ الشاشة</string>
     <string name="LockscreenMiscClock">التحويل بين ساعة S8 وS7</string>
+    <string name="LockscreenMiscQuickSetting">منع قائمة الانسدال في شاشة القفل</string>
     <string name="LockscreenAnalogTitle">ساعة العقارب</string>
     <string name="LockscreenAnalog">ساعة العقارب في شاشة القفل</string>
     <string name="LockscreenAnalog1">الشكل 1</string>
