@@ -435,9 +435,21 @@
             	android:key="lockscreen_notifications"
             	android:title="@string/LockscreenNotification"
             	app:isSilent="false"
-            	app:maxValue="3"
+            	app:maxValue="5"
             	app:minValue="1"
             	app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="quick_unlock"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/LockscreenQuickUnlock" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="scramble_pin"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/LockscreenScramble" />
         </PreferenceCategory>
     </PreferenceScreen>
 
@@ -988,7 +1000,7 @@
                 android:key="torchlight_timeout"
                 android:title="@string/MiscTorchTimeout" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
+                android:defaultValue="true"
                 android:key="hide_keyboard_switcher"
                 android:summaryOff="@string/Hidden"
                 android:summaryOn="@string/Shown"
@@ -1001,6 +1013,13 @@
                 android:key="policy_control"
                 android:summary="%s"
                 android:title="@string/MiscImmersive" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="all_rotations"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/MiscRotation"
+                app:rebootDevice="true" />
             <!--/*
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                 android:defaultValue="17"

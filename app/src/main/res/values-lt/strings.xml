@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">BM Nustatymai PRO</string>
+    <string name="app_name">BatControl Pro</string>
     <string name="navigation_drawer_open">Atidaryti Nustatymų pasirinkimą</string>
     <string name="navigation_drawer_close">Uždaryti Nustatymų pasirinkimą</string>
     <string name="dialog_color_picker">Nustatyti spalvą</string>
@@ -164,6 +164,27 @@
     <string name="toast_Translucent_animation">Persišvietimo Animacija</string>
     <string name="toast_SlideLeftRight_animation">Slinkimo iš Kairės į Dešinę Animacija</string>
     <string name="toast_SlideRightLeft_animation">Slinkimo iš Dešinės į Kairę Animacija</string>
+    <string name="listview_animation_scrolling">Sarašo slinkimo animacija</string>
+    <string name="listview_interpolator_scrolling">Sarašo Nustatymai animacija</string>
+    <string name="listview_off">Išjungta</string>
+    <string name="listview_wave_left">Banga kairėn</string>
+    <string name="listview_wave_right">Banga dešinėn</string>
+    <string name="listview_scale">Skalė</string>
+    <string name="listview_alpha">Alfa</string>
+    <string name="listview_top">Sukrauti iš viršaus</string>
+    <string name="listview_bottom">Sukrauti iš apačios</string>
+    <string name="listview_unfold">Atlenkti</string>
+    <string name="listview_fold">Sulenkti</string>
+    <string name="listview_left">Versti į kairę</string>
+    <string name="listview_right">Versti į dešinę</string>
+    <string name="listview_rotate">Sukti</string>
+    <string name="listview_accelerate">Greitinti</string>
+    <string name="listview_decelerate">Lėtinti</string>
+    <string name="listview_accelerate_decelerate">Greitinti lėtinti</string>
+    <string name="listview_anticipate">Laukti</string>
+    <string name="listview_overshoot">Pralenkti</string>
+    <string name="listview_anticipate_overshoot">Laukti pralenkti</string>
+    <string name="listview_bounce">Atšokti</string>
     <string name="AlwaysOff">Visada išjungta</string>
     <string name="OneSecond">1 Sekundė</string>
     <string name="ThreeSeconds">2 Sekundės</string>
@@ -383,6 +404,7 @@
     <string name="PullDownNotificationFooterBackground">Pranešimų apačios fono spalva</string>
     <string name="PullDownNotificationTransparency">Leisti skaidrų pranešimo foną</string>
     <string name="PullDownNotificationTransparencyColor">Skaidraus pranešimo fono spalva</string>
+    <string name="PullDownNotificationScreenshotTextColor">Ekrano nuotraukos Pranešimo teksto spavos meniu</string>
     <string name="PullDownNotificationMusicSummary">SMusic QuickPanel individualių spalvų modifikacija</string>
     <string name="PullDownNotificationMusicTitle">Nustatyti SMusic QuickPanel ir Užrakinto ekrano Mygtukų + Teksto spalvą</string>
     <string name="PullDownNotificationMusicAppName">Programos Antraštės teksto spalva</string>
@@ -440,6 +462,7 @@
     <string name="MiscImmersiveArrayHideSta">Slėpti Būsenos juostą</string>
     <string name="MiscImmersiveArrayHideNav">Slėpti Navigaciją</string>
     <string name="MiscAODisplay">AOD (visada įjungtas ekranas) ryškumas</string>
+    <string name="MiscRotation">Leisti telefonui sukti ekraną 360 laipsnių</string>
     <string name="NavBarStatusBarColor">Nustatyti tokią pat NavBar spalvą kaip ir Būsenos juosta (kadangi programa nekeičia spalvos)</string>
     <string name="NavBarColor">NavBar Spalvos</string>
     <string name="NavBarIconColor">NavBar Piktogramos spalva</string>
@@ -560,6 +583,7 @@
     <string name="Signal15">Signalas 15</string>
     <string name="Signal16">Signalas 16</string>
     <string name="Signal17">Signalas 17</string>
+    <string name="Signal18">Signalas 18</string>
     <string name="SignalStockArrows">Numatytos Rodyklės</string>
     <string name="SignalNoArrows">Nerodyti rodyklių didelėms Wi-Fi piktogramoms</string>
     <string name="SignalAlarm1">Žadintuvas 1 (Numatytas)</string>
@@ -641,6 +665,8 @@
     <string name="LockscreenAnalog18">Stilius 18</string>
     <string name="LockscreenTimeout">Užrakintą ekraną laikyti įjungtą</string>
     <string name="LockscreenNotification">Užrakintame ekrane rodomų pranešimų skaičius</string>
+    <string name="LockscreenQuickUnlock">Greitas atrakinimas</string>
+    <string name="LockscreenScramble">Atsitiktinė Pin klaviatūros skaitmenų vieta (veikia tik su originalia tema)</string>
     <string name="LockscreenReply">Atsakyti pranešimus iš ekrano</string>
     <string name="ButtonTitle">Mygtukų Atgal ir Nesenai naudotos nustatymai</string>
     <string name="ButtonSummary">Čia galima keisti fizinių mygtukų Atgal ir Nesenai naudotos programos nustatymus</string>

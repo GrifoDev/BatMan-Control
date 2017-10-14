@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">BM-inställningar pro</string>
+    <string name="app_name">BatControl Pro</string>
     <string name="navigation_drawer_open">Öppna navigeringspanelen</string>
     <string name="navigation_drawer_close">Stäng navigeringspanelen</string>
     <string name="dialog_color_picker">Välj färg</string>
@@ -164,6 +164,27 @@
     <string name="toast_Translucent_animation">Genomskinlig-animation</string>
     <string name="toast_SlideLeftRight_animation">Slide Left To Right Animation</string>
     <string name="toast_SlideRightLeft_animation">Slide Right To Left Animation</string>
+    <string name="listview_animation_scrolling">Listvy Animationsscrollning</string>
+    <string name="listview_interpolator_scrolling">Listvy Animationsinställning</string>
+    <string name="listview_off">Av</string>
+    <string name="listview_wave_left">Vinka till vänster</string>
+    <string name="listview_wave_right">Vinka till höger</string>
+    <string name="listview_scale">Skala</string>
+    <string name="listview_alpha">Alpha</string>
+    <string name="listview_top">Stapla över</string>
+    <string name="listview_bottom">Stapla under</string>
+    <string name="listview_unfold">Veckla ut</string>
+    <string name="listview_fold">Vik ihop</string>
+    <string name="listview_left">Translate Left</string>
+    <string name="listview_right">Translate Right</string>
+    <string name="listview_rotate">Rotera</string>
+    <string name="listview_accelerate">Accelerate</string>
+    <string name="listview_decelerate">Decelerate</string>
+    <string name="listview_accelerate_decelerate">Accelerate decelerate</string>
+    <string name="listview_anticipate">Anticipate</string>
+    <string name="listview_overshoot">Overshoot</string>
+    <string name="listview_anticipate_overshoot">Anticipate overshoot</string>
+    <string name="listview_bounce">Studsa</string>
     <string name="AlwaysOff">Alltid av</string>
     <string name="OneSecond">1 sekund</string>
     <string name="ThreeSeconds">2 sekunder</string>
@@ -383,6 +404,7 @@
     <string name="PullDownNotificationFooterBackground">Färg för bakgrund på nedre delen av notifikationspanelen</string>
     <string name="PullDownNotificationTransparency">Tillåt transparent bakgrund för notifikationer</string>
     <string name="PullDownNotificationTransparencyColor">Bakgrundsfärg för notifikationer med transparent bakgrund</string>
+    <string name="PullDownNotificationScreenshotTextColor">Meddelande text färg på skärmdumpsmenyn</string>
     <string name="PullDownNotificationMusicSummary">Alternativ färg för SMusic Quickpanel</string>
     <string name="PullDownNotificationMusicTitle">Anpassa SMusic QuickPanel och färg för låsskärmensknapparna samt färg på texten</string>
     <string name="PullDownNotificationMusicAppName">Färg för titel-appens namntext</string>
@@ -440,6 +462,7 @@
     <string name="MiscImmersiveArrayHideSta">Göm StatusBar</string>
     <string name="MiscImmersiveArrayHideNav">Göm Navigation</string>
     <string name="MiscAODisplay">AOD-ljusstyrka</string>
+    <string name="MiscRotation">Tillåt telefonen att rotera 360 grader</string>
     <string name="NavBarStatusBarColor">Få samma färg på NavBar som på statusbaren (såvida inte appen tvingar användning av en färg)</string>
     <string name="NavBarColor">NavBar Colors</string>
     <string name="NavBarIconColor">Färg på NavBar ikoner</string>
@@ -560,6 +583,7 @@
     <string name="Signal15">Signal 15</string>
     <string name="Signal16">Signal 16</string>
     <string name="Signal17">Signal 17</string>
+    <string name="Signal18">Signal 18</string>
     <string name="SignalStockArrows">Standardpilar</string>
     <string name="SignalNoArrows">Inga pilar för stora wifi ikoner</string>
     <string name="SignalAlarm1">Alarm 1 (Standard)</string>
@@ -641,6 +665,8 @@
     <string name="LockscreenAnalog18">Stil 18</string>
     <string name="LockscreenTimeout">Visa tidsgräns på låsskärmen</string>
     <string name="LockscreenNotification">Låsskärmsnofikiationsnummer</string>
+    <string name="LockscreenQuickUnlock">Snabbupplåsning</string>
+    <string name="LockscreenScramble">Randomisera PIN-kodens knappsats (funkar endast på original temat)</string>
     <string name="LockscreenReply">Reply messages from lockscreen</string>
     <string name="ButtonTitle">Senaste- och tillbakaknappen</string>
     <string name="ButtonSummary">Ändra inställningar för hårdvaruknappar</string>

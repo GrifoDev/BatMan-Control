@@ -13,7 +13,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">BM Setup Pro</string>
+    <string name="app_name">BatControl Pro</string>
     <string name="navigation_drawer_open">Open navigatielade</string>
     <string name="navigation_drawer_close">Sluit navigatielade</string>
     <string name="dialog_color_picker">Kies een kleur</string>
@@ -165,6 +165,27 @@
     <string name="toast_Translucent_animation">Translucent Animatie</string>
     <string name="toast_SlideLeftRight_animation">Schuif van Links naar Rechts Animatie</string>
     <string name="toast_SlideRightLeft_animation">Schuif van Rechts naar Links Animatie</string>
+    <string name="listview_animation_scrolling">Lijstweergave animatie scrollen</string>
+    <string name="listview_interpolator_scrolling">Lijstweergave Instelling Animatie</string>
+    <string name="listview_off">Uit</string>
+    <string name="listview_wave_left">Wave Links</string>
+    <string name="listview_wave_right">Wave Rechts</string>
+    <string name="listview_scale">Schaal</string>
+    <string name="listview_alpha">Alfa</string>
+    <string name="listview_top">Stack Top</string>
+    <string name="listview_bottom">Stack Bottom</string>
+    <string name="listview_unfold">Uitvouwen</string>
+    <string name="listview_fold">Vouwen</string>
+    <string name="listview_left">Vertaal Links</string>
+    <string name="listview_right">Vertaal Rechts</string>
+    <string name="listview_rotate">Roteten</string>
+    <string name="listview_accelerate">Versnellen</string>
+    <string name="listview_decelerate">Vertragen</string>
+    <string name="listview_accelerate_decelerate">Versnellen vertragen</string>
+    <string name="listview_anticipate">Anticipeten</string>
+    <string name="listview_overshoot">Overshoot</string>
+    <string name="listview_anticipate_overshoot">Anticiperen overshoot</string>
+    <string name="listview_bounce">Bounce</string>
     <string name="AlwaysOff">Altijd uit</string>
     <string name="OneSecond">1 Seconde</string>
     <string name="ThreeSeconds">2 Seconden</string>
@@ -384,6 +405,7 @@
     <string name="PullDownNotificationFooterBackground">Notificatie footer achtergrondkleur</string>
     <string name="PullDownNotificationTransparency">Sta Notificatie achtergrond trasperantie toe</string>
     <string name="PullDownNotificationTransparencyColor">Notificatie transperantie achtergrond kleur</string>
+    <string name="PullDownNotificationScreenshotTextColor">Notificatie tekstkleur screenshot menu</string>
     <string name="PullDownNotificationMusicSummary">SMusic QuickPanel aangepaste kleur mod</string>
     <string name="PullDownNotificationMusicTitle">Pas SMusic QuickPanel en Lockscreen Button Kleuren + Text Kleuren aan</string>
     <string name="PullDownNotificationMusicAppName">Title App Name text kleur</string>
@@ -441,13 +463,14 @@
     <string name="MiscImmersiveArrayHideSta">Verberg StatusBalk</string>
     <string name="MiscImmersiveArrayHideNav">Verberg Navigatiebalk</string>
     <string name="MiscAODisplay">AOD helderheid</string>
+    <string name="MiscRotation">Sta telefoon toe om 360 graden te roteren</string>
     <string name="NavBarStatusBarColor">Krijg dezelfde navigatiebalk kleur als die van de statusbalk (zolang een app geen kleur forceert) </string> 
-    <string name="NavBarColor">Navigatiebalk kleur</string> 
-    <string name="NavBarIconColor">Navigatiebalk Ikoon kleur</string> 
-    <string name="NavBarTitle">Navigatie Balk</string> 
+    <string name="NavBarColor">Navigatiebalk kleur</string>
+    <string name="NavBarIconColor">Navigatiebalk Ikoon kleur</string>
+    <string name="NavBarTitle">Navigatie Balk</string>
     <string name="NavBarSummary">Deze instelling bevat navigatiebalk aanpassingen</string>
-    <string name="NavBarHeightTitle">Sta toe navigatiebalk hoogte te bewerken</string> 
-    <string name="NavBarHeight">Verander hoogte navigatiebalk</string> 
+    <string name="NavBarHeightTitle">Sta toe navigatiebalk hoogte te bewerken</string>
+    <string name="NavBarHeight">Verander hoogte navigatiebalk</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Ambient display instellingen</string>
     <string name="AmbientPickUp">Ambient display zichtbaar bij oppakken</string>
@@ -561,6 +584,7 @@
     <string name="Signal15">Signaal 15</string>
     <string name="Signal16">Signaal 16</string>
     <string name="Signal17">Signaal 17</string>
+    <string name="Signal18">Signaal 18</string>
     <string name="SignalStockArrows">Stock Pijlen</string>
     <string name="SignalNoArrows">Geen Pijlen voor Grote wifi iconen</string>
     <string name="SignalAlarm1">Wekker 1 (Stock)</string>
@@ -642,6 +666,8 @@
     <string name="LockscreenAnalog18">Style 18</string>
     <string name="LockscreenTimeout">Vergrendelscherm Timeout</string>
     <string name="LockscreenNotification">Vergrendelscherm notificatie nummer</string>
+    <string name="LockscreenQuickUnlock">Snel Ontgrendelen</string>
+    <string name="LockscreenScramble">Willekeurig pin toetsenblok (alleen met stock thema)</string>
     <string name="LockscreenReply">Beantwoord berichten vanaf vergrendelscherm</string>
     <string name="ButtonTitle">Recent en Terug knop</string>
     <string name="ButtonSummary">Verander instellingen gerelateerd​ aan hardware knoppen</string>

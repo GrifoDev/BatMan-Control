@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">إعدادات سوبرمان الاحترافي</string>
+    <string name="app_name">BatControl Pro</string>
     <string name="navigation_drawer_open">إفتح شريط التنقل</string>
     <string name="navigation_drawer_close">إغلق شريط التنقل</string>
     <string name="dialog_color_picker">إختر اللون</string>
@@ -164,6 +164,27 @@
     <string name="toast_Translucent_animation">Translucent Animation</string>
     <string name="toast_SlideLeftRight_animation">Slide Left To Right Animation</string>
     <string name="toast_SlideRightLeft_animation">Slide Right To Left Animation</string>
+    <string name="listview_animation_scrolling">أنمايشن تمرير القوائم</string>
+    <string name="listview_interpolator_scrolling">أنمايشن إعدادات القوائم</string>
+    <string name="listview_off">لإيقاف</string>
+    <string name="listview_wave_left">موجة اليسار</string>
+    <string name="listview_wave_right">موجة اليمين</string>
+    <string name="listview_scale">مقياس</string>
+    <string name="listview_alpha">ألفا</string>
+    <string name="listview_top">تكديس أعلى</string>
+    <string name="listview_bottom">تكديس أسفل</string>
+    <string name="listview_unfold">الطي المعكوس</string>
+    <string name="listview_fold">الطي</string>
+    <string name="listview_left">يسار</string>
+    <string name="listview_right">يمين</string>
+    <string name="listview_rotate">استدارة</string>
+    <string name="listview_accelerate">تسارع</string>
+    <string name="listview_decelerate">تباطؤ</string>
+    <string name="listview_accelerate_decelerate">تسارع تباطئ</string>
+    <string name="listview_anticipate">الاستباق</string>
+    <string name="listview_overshoot">الاجتياز</string>
+    <string name="listview_anticipate_overshoot">استباق اجتياز</string>
+    <string name="listview_bounce">وثب</string>
     <string name="AlwaysOff">دائما غير مشغل</string>
     <string name="OneSecond">1 ثانية</string>
     <string name="ThreeSeconds">2 ثواني</string>
@@ -383,6 +404,7 @@
     <string name="PullDownNotificationFooterBackground">لون خلفية قدم الإشعارات</string>
     <string name="PullDownNotificationTransparency">السماح بشفافية خلفية الإشعارات</string>
     <string name="PullDownNotificationTransparencyColor">لون شفافية خلفية الإشعارات</string>
+    <string name="PullDownNotificationScreenshotTextColor">لون نص الإعلام لقائمة التقاط الشاشة</string>
     <string name="PullDownNotificationMusicSummary">تعديل لون اللوحة السريعة لـ SMusic</string>
     <string name="PullDownNotificationMusicTitle">تعديل ألوان الأزرار والنصوص للوحة السريعة وقفل شاشة SMusic</string>
     <string name="PullDownNotificationMusicAppName">لون إسم التطبيق</string>
@@ -440,6 +462,7 @@
     <string name="MiscImmersiveArrayHideSta">إخفاء شريط الحالة</string>
     <string name="MiscImmersiveArrayHideNav">إخفاء أزرار التنقل</string>
     <string name="MiscAODisplay">سطوع AOD</string>
+    <string name="MiscRotation">السماح باستدارة الهاتف بـ 360 درجة</string>
     <string name="NavBarStatusBarColor">دع شريط التنقل يختار اللون من شريط الحالة (ما دام التطبيق لا يفرض لونا)</string>
     <string name="NavBarColor">ألوان شريط التنقل</string>
     <string name="NavBarIconColor">لون أيقونة شريط التنقل</string>
@@ -560,6 +583,7 @@
     <string name="Signal15">الإشارة 15</string>
     <string name="Signal16">الإشارة 16</string>
     <string name="Signal17">الإشارة 17</string>
+    <string name="Signal18">الإشارة 18</string>
     <string name="SignalStockArrows">إشارات أصلية</string>
     <string name="SignalNoArrows">لا إشارات لأيقونات WiFi الكبيرة</string>
     <string name="SignalAlarm1">المنبه 1 (الأصلي)</string>
@@ -641,6 +665,8 @@
     <string name="LockscreenAnalog18">الشكل 18</string>
     <string name="LockscreenTimeout">مدة تشغيل شاشة القفل</string>
     <string name="LockscreenNotification">عدد الإشعارات الممكن إظهارها على شاشة القفل</string>
+    <string name="LockscreenQuickUnlock">الفتح السريع</string>
+    <string name="LockscreenScramble">إظهار عشوائي للوحة مفاتيح إدخال الرقم السري (تعمل فقط على الثيم الأصلي)</string>
     <string name="LockscreenReply">الرد على الرسائل من خلال شاشة القفل</string>
     <string name="ButtonTitle">زر التطبيقات المفتوحة والرجوع</string>
     <string name="ButtonSummary">تغيير الإعدادات المتعلقة بالأزرار الواقعية</string>

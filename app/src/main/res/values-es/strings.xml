@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">BM Ajustes Pro</string>
+    <string name="app_name">BatControl Pro</string>
     <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
     <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
     <string name="dialog_color_picker">Elegir Color</string>
@@ -164,6 +164,27 @@
     <string name="toast_Translucent_animation">Animación Translucent</string>
     <string name="toast_SlideLeftRight_animation">Deslizar Animación de Izquierda a Derecha</string>
     <string name="toast_SlideRightLeft_animation">Deslizar Animación de Derecha a Izquierda</string>
+    <string name="listview_animation_scrolling">Desplazamiento sobre la lista de animaciones </string>
+    <string name="listview_interpolator_scrolling">Ajustes de la lista de animaciones</string>
+    <string name="listview_off">Apagado</string>
+    <string name="listview_wave_left">Desplegar hacia la izquierda</string>
+    <string name="listview_wave_right">Desplegar hacia la derecha</string>
+    <string name="listview_scale">Escalar</string>
+    <string name="listview_alpha">Alfa</string>
+    <string name="listview_top">Amontonar arriba</string>
+    <string name="listview_bottom">Amontonar ababajo</string>
+    <string name="listview_unfold">Desplegar</string>
+    <string name="listview_fold">Plegar</string>
+    <string name="listview_left">Traducir izquierda</string>
+    <string name="listview_right">Traducir derecha</string>
+    <string name="listview_rotate">Rotar</string>
+    <string name="listview_accelerate">Acelerar</string>
+    <string name="listview_decelerate">Decelerar</string>
+    <string name="listview_accelerate_decelerate">Acelerar decelerar</string>
+    <string name="listview_anticipate">Anticipar</string>
+    <string name="listview_overshoot">Overshoot</string>
+    <string name="listview_anticipate_overshoot">Anticipar overshoot</string>
+    <string name="listview_bounce">Rebotar</string>
     <string name="AlwaysOff">Siempre apagado</string>
     <string name="OneSecond">1 Segundo</string>
     <string name="ThreeSeconds">2 Segundos</string>
@@ -383,6 +404,7 @@
     <string name="PullDownNotificationFooterBackground">Color de fondo del pie de notificación</string>
     <string name="PullDownNotificationTransparency">Permitir transparencia en el fondo de la notificación</string>
     <string name="PullDownNotificationTransparencyColor">Color de la transparencia en el fondo de la notificación</string>
+    <string name="PullDownNotificationScreenshotTextColor">Color del texto de notificación en el menú de capturar pantalla</string>
     <string name="PullDownNotificationMusicSummary">Modifical el color del QuickPanel de SMusic</string>
     <string name="PullDownNotificationMusicTitle">Personalizar el QuickPanel de SMusic y el color de los botones de la pantalla de bloqueo + color del texto</string>
     <string name="PullDownNotificationMusicAppName">Color del texto del título de la app</string>
@@ -440,6 +462,7 @@
     <string name="MiscImmersiveArrayHideSta">Ocultar barra de estado</string>
     <string name="MiscImmersiveArrayHideNav">Ocultar barra de navegación</string>
     <string name="MiscAODisplay">Brillo AOD</string>
+    <string name="MiscRotation">Permitir rotar 360 grados el teléfono</string>
     <string name="NavBarStatusBarColor">Establece el mismo color de NavBar que de statusbar (a menos que una app defina uno propio)</string>
     <string name="NavBarColor">Colores de NavBar</string>
     <string name="NavBarIconColor">Color del icono de NavBar</string>
@@ -560,6 +583,7 @@
     <string name="Signal15">Señal 15</string>
     <string name="Signal16">Señal 16</string>
     <string name="Signal17">Señal 17</string>
+    <string name="Signal18">Señal 18</string>
     <string name="SignalStockArrows">Flechas Stock</string>
     <string name="SignalNoArrows">Sin flechas para los iconos de WiFi grandes</string>
     <string name="SignalAlarm1">Alarma 1 (Stock)</string>
@@ -641,6 +665,8 @@
     <string name="LockscreenAnalog18">Estilo 18</string>
     <string name="LockscreenTimeout">Tiempo de espera de la pantalla de bloqueo</string>
     <string name="LockscreenNotification">Numero de notificaciones en pantalla de bloqueo</string>
+    <string name="LockscreenQuickUnlock">Desbloqueo rápido</string>
+    <string name="LockscreenScramble">Teclado de pin aleatorio(Sólo funciona en el tema por defecto)</string>
     <string name="LockscreenReply">Reply messages from lockscreen</string>
     <string name="ButtonTitle">Botón de reciente y atrás</string>
     <string name="ButtonSummary">Cambia los ajustes relacionados con los botones del hardware</string>

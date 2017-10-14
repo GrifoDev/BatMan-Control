@@ -86,7 +86,6 @@
             android:title="@string/NotificationShape"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
-        <!--/*
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:key="pekaka_memCleanView"
             android:summaryOff="@string/Hidden"
@@ -94,9 +93,9 @@
             android:title="@string/ClearMemory" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:defaultValue="#ff22c4ff"
+            android:dependency="pekaka_memCleanView"
             android:key="db_inkeffect_pekaka_memkiller_picker"
             android:title="@string/WeatherColor" />
-        */-->
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="enable_blur"
@@ -270,6 +269,11 @@
                 android:dependency="unlock_notification_colors"
                 android:key="notif_footer_background_color"
                 android:title="@string/PullDownNotificationFooterBackground" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff212122"
+                android:dependency="unlock_notification_colors"
+                android:key="notification_screenshot_text_color"
+                android:title="@string/PullDownNotificationScreenshotTextColor" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:dependency="unlock_notification_colors"

@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">Ustawienia BM pro</string>
+    <string name="app_name">BatControl Pro</string>
     <string name="navigation_drawer_open">Otwórz panel nawigacyjny</string>
     <string name="navigation_drawer_close">Zamknij panel nawigacyjny</string>
     <string name="dialog_color_picker">Wybierz kolor</string>
@@ -164,6 +164,27 @@
     <string name="toast_Translucent_animation">Translucent Animation</string>
     <string name="toast_SlideLeftRight_animation">Slide Left To Right Animation</string>
     <string name="toast_SlideRightLeft_animation">Slide Right To Left Animation</string>
+    <string name="listview_animation_scrolling">Listview Animation Scrolling</string>
+    <string name="listview_interpolator_scrolling">Listview Setting Animation</string>
+    <string name="listview_off">Off</string>
+    <string name="listview_wave_left">Wave Left</string>
+    <string name="listview_wave_right">Wave Right</string>
+    <string name="listview_scale">Scale</string>
+    <string name="listview_alpha">Alpha</string>
+    <string name="listview_top">Stack Top</string>
+    <string name="listview_bottom">Stack Bottom</string>
+    <string name="listview_unfold">Unfold</string>
+    <string name="listview_fold">Fold</string>
+    <string name="listview_left">Translate Left</string>
+    <string name="listview_right">Translate Right</string>
+    <string name="listview_rotate">Rotate</string>
+    <string name="listview_accelerate">Accelerate</string>
+    <string name="listview_decelerate">Decelerate</string>
+    <string name="listview_accelerate_decelerate">Accelerate decelerate</string>
+    <string name="listview_anticipate">Anticipate</string>
+    <string name="listview_overshoot">Overshoot</string>
+    <string name="listview_anticipate_overshoot">Anticipate overshoot</string>
+    <string name="listview_bounce">Bounce</string>
     <string name="AlwaysOff">Zawsze wyłączony</string>
     <string name="OneSecond">1 Sekunda</string>
     <string name="ThreeSeconds">2 Sekund</string>
@@ -383,6 +404,7 @@
     <string name="PullDownNotificationFooterBackground">Kolor tła stopki powiadomienia</string>
     <string name="PullDownNotificationTransparency">Zezwól na przejrzystość tła</string>
     <string name="PullDownNotificationTransparencyColor">owtórzenie tła przezroczystego</string>
+    <string name="PullDownNotificationScreenshotTextColor">Menu zrzutów kolorów tekstu powiadamiania</string>
     <string name="PullDownNotificationMusicSummary">SMusic Moduł koloru niestandardowego QuickPanel</string>
     <string name="PullDownNotificationMusicTitle">Dostosuj muzykę QuickPanel i blokuj przyciski ekranu Kolory + Kolory tekstu</string>
     <string name="PullDownNotificationMusicAppName">Kolor tekstu nazwy aplikacji</string>
@@ -440,6 +462,7 @@
     <string name="MiscImmersiveArrayHideSta">Ukryć StatusBar</string>
     <string name="MiscImmersiveArrayHideNav">Ukryć Navigation</string>
     <string name="MiscAODisplay">Jasność Always On Display</string>
+    <string name="MiscRotation">Zezwól, aby telefon obracał się o 360 stopni</string>
     <string name="NavBarStatusBarColor">Dostaj ten sam kolor NavBar na pasku stanu (tak długo, jak aplikacja nie zmusza do uzyskania koloru)</string>
     <string name="NavBarColor">Kolory NavBar</string>
     <string name="NavBarIconColor">Kolor ikony programu NavBar</string>
@@ -560,6 +583,7 @@
     <string name="Signal15">Signal 15</string>
     <string name="Signal16">Signal 16</string>
     <string name="Signal17">Signal 17</string>
+    <string name="Signal18">Signal 18</string>
     <string name="SignalStockArrows">Fabryczne strzałki</string>
     <string name="SignalNoArrows">Brak strzałek dla dużych ikon Wifi</string>
     <string name="SignalAlarm1">Alarm 1 (Fabryczny)</string>
@@ -641,6 +665,8 @@
     <string name="LockscreenAnalog18">Style 18</string>
     <string name="LockscreenTimeout">Czas do wygaszenia ekranu</string>
     <string name="LockscreenNotification">Ilość powiadomień</string>
+    <string name="LockscreenQuickUnlock">Szybkie odblokowanie</string>
+    <string name="LockscreenScramble">Klawiatura pinów losowy (działa tylko na temat magazynu)</string>
     <string name="LockscreenReply">Odpowiedzi na wiadomości lockscreen</string>
     <string name="ButtonTitle">Przyciski fizyczne</string>
     <string name="ButtonSummary">Zmień ustawienia przycisków OSATATNIE i WSTECZ</string>

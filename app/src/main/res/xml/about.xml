@@ -5,6 +5,18 @@
     <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/bat_logo"/>
 
     <PreferenceCategory
+        android:title="@string/AboutGrifoDev">
+        <PreferenceScreen
+            android:icon="@drawable/gd"
+            android:summary="@string/AboutGrifoDevSummary"
+            android:title="@string/AboutGrifoDev">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.grifodev.ch/" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/AboutAFH">
         <PreferenceScreen
             android:icon="@drawable/afh"
@@ -117,18 +129,6 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/BatManRom" />
-        </PreferenceScreen>
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="@string/AboutGrifoDev">
-        <PreferenceScreen
-            android:icon="@drawable/gd"
-            android:summary="@string/AboutGrifoDevSummary"
-            android:title="@string/AboutGrifoDev">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://www.grifodev.ch/" />
         </PreferenceScreen>
     </PreferenceCategory>
 

@@ -610,6 +610,7 @@
         <item>@drawable/signal15</item>
         <item>@drawable/signal16</item>
         <item>@drawable/signal17</item>
+        <item>@drawable/signal18</item>
     </array>
     <string-array name="signal_entries">
         <item>@string/Signal1</item>
@@ -629,6 +630,7 @@
         <item>@string/Signal15</item>
         <item>@string/Signal16</item>
         <item>@string/Signal17</item>
+        <item>@string/Signal18</item>
     </string-array>
     <string-array name="signal_values" translatable="false">
         <item>1</item>
@@ -648,6 +650,7 @@
         <item>15</item>
         <item>16</item>
         <item>17</item>
+        <item>18</item>
     </string-array>
 
     <array name="wifi_drawables">
@@ -864,6 +867,56 @@
         <item>immersive.full=*</item>
         <item>immersive.status=*</item>
         <item>immersive.navigation=*</item>
+    </string-array>
+
+    <string-array name="listview_animation_entries">
+        <item>@string/listview_off</item>
+        <item>@string/listview_wave_left</item>
+        <item>@string/listview_wave_right</item>
+        <item>@string/listview_scale</item>
+        <item>@string/listview_alpha</item>
+        <item>@string/listview_top</item>
+        <item>@string/listview_bottom</item>
+        <item>@string/listview_unfold</item>
+        <item>@string/listview_fold</item>
+        <item>@string/listview_left</item>
+        <item>@string/listview_right</item>
+        <item>@string/listview_rotate</item>
+    </string-array>
+    <string-array name="listview_animation_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="listview_interpolator_entries">
+        <item>@string/listview_off</item>
+        <item>@string/listview_accelerate</item>
+        <item>@string/listview_decelerate</item>
+        <item>@string/listview_accelerate_decelerate</item>
+        <item>@string/listview_anticipate</item>
+        <item>@string/listview_overshoot</item>
+        <item>@string/listview_anticipate_overshoot</item>
+        <item>@string/listview_bounce</item>
+    </string-array>
+    <string-array name="listview_interpolator_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
     </string-array>
 
 </resources>
