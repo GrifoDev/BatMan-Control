@@ -28,7 +28,7 @@
     <string name="reboot_device_text">הפעל מחדש את המכשיר</string>
     <string name="reboot_recovery_text">הפעלה מחדש למצב רקוברי</string>
     <string name="reboot_ui_text">הפעל מחדש את המערכת</string>
-    <string name="app_reboot_required_dialog_title">נדרש הפעלה מחדש של האפליקצייה</string>
+    <string name="app_reboot_required_dialog_title">נדרשת הפעלה מחדש של האפליקצייה</string>
     <string name="app_reboot_required_dialog_message">כדי שפעולה זו תיכנס לתוקף יש צורך בהפעלה מחדש %1$s. \n\nלחץ על אישור כדי להפעיל מחדש כעת</string>
     <string name="theme_dialog_title">בחר ערכת נושא</string>
     <string name="changelog_version_title">גרסת רום: %1$s</string>
