@@ -19,7 +19,7 @@
   <string name="app_reboot_required_dialog_title">Aplikacija zahtjeva ponovno pokretanje</string>
   <string name="app_reboot_required_dialog_message">Ova akcija zahtjeva ponovno pokretanje %1$s.\n\nKlikni OK za restart</string>
   <string name="theme_dialog_title">Odaberi temu</string>
-  <string name="changelog_version_title"></string>
+  <string name="changelog_version_title">Verzija roma: %1$s</string>
   <string name="backup_restore_dialog_title">Spremi/vrati Rom Control podatke</string>
   <string name="choose_backup_dialog_title">Odaberi arhivu za vraćanje</string>
   <string name="no_backup_dialog_title">Nema spremljene arhive</string>
@@ -333,6 +333,9 @@
   <string name="BlurEffectBackground">Vrijednost pozadine efekta zamućenja</string>
   <string name="BlurEffectDegree">Vrijednost stupnja efekta zamućenja</string>
   <string name="BlurEffectColor">Promijeni boju zamućenja pozadine</string>
+  <string name="QuickTiles">Ikone brzih postavki</string>
+  <string name="QuickTilesPortrait">Broj ikona u vertikalnom načinu</string>
+  <string name="QuickTilesLandscape">Broj ikona u horizontalnom načinu</string>
   <string name="GearRebootCategory">Vidljivost restarta na gornjem lijevom uglu</string>
   <string name="GearReboot">Vidljivost restarta</string>
   <string name="GearRebootColor">Boja restarta</string>

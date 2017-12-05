@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Fono susiliejimo reikšmė</string>
     <string name="BlurEffectDegree">Susiliejimo laipsnis</string>
     <string name="BlurEffectColor">КKeisti suliejimo fono spalvą</string>
+    <string name="QuickTiles">Greitų Nustatymų Plytelės</string>
+    <string name="QuickTilesPortrait">Plytelių skaičius Portrait peržiūros režime</string>
+    <string name="QuickTilesLandscape">Plytelių skaičius Landscape peržiūros režime</string>
     <string name="GearRebootCategory">Rodomas Vaizdo perkrovimas viršutiniame kairiajame kampe</string>
     <string name="GearReboot">Rodomas Vaizdo perkrovimas</string>
     <string name="GearRebootColor">Parinkti Vaizdo perkrovimo piktogramos spalvą</string>

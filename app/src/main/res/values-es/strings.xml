@@ -40,7 +40,7 @@
     <string name="restore_confirm_message">Ha elegido restaurar los datos de las preferencias de Rom Control anteriores.\n\n<b>¡Tenga cuidado! Esta operación cambiará la configuración de su dispositivo en función de los ajustes almacenados en este archivo.\n\n<font fgcolor="red">¡¡¡NO PROCEDA a menos que esté absolutamente seguro!!!</font></b>\n\nRom Control se cerrará para permitir la restauración de datos y volverá a abrirse una vez finalizada. Dependiendo de la cantidad de ajustes, esto puede tomar algún tiempo.\n\nPor favor click \"CONFIRMAR\" para proceder o \"CANCELAR\" para salir.</string>
     <string name="backup_complete_toast">Copia de seguridad completada correctamente. El archivo de copia de seguridad se puede encontrar en\n%1$s</string>
     <string name="restore_complete_toast">Restauración completa</string>
-    <string name="about">Bienvenido a BatMan</string>
+    <string name="about">Bienvenido a BM-Rom</string>
     <string name="systemui_prefs">Ajustes de SystemUI</string>
     <string name="phone_prefs">Ajustes del Teléfono</string>
     <string name="framework_prefs">Preferencias del Framework</string>
@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Valor de fondo del efecto de desenfoque</string>
     <string name="BlurEffectDegree">Valor del grado de efecto de desenfoque</string>
     <string name="BlurEffectColor">ambio del color del desenfoque</string>
+    <string name="QuickTiles">Configuración de teclas de ajustes rápidos</string>
+    <string name="QuickTilesPortrait">Número de teclas rápidas en modo portrait</string>
+    <string name="QuickTilesLandscape">Número de teclas rápidas en modo paisaje</string>
     <string name="GearRebootCategory">Visibilidad de Reinicio en la esquina superior izquierda</string>
     <string name="GearReboot">Visibilidad de la vista de Reinicio</string>
     <string name="GearRebootColor">Reiniciar el color de la vista</string>

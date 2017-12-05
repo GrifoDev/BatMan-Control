@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">قيمة التأثير الضبابي في الخلفية</string>
     <string name="BlurEffectDegree">درجة التأثير الضبابي</string>
     <string name="BlurEffectColor">تغيير لون خلفية التأثير الضبابي</string>
+    <string name="QuickTiles">بقع الإعدادات السريعة</string>
+    <string name="QuickTilesPortrait">عدد بقع الإعدادات السريعة في الوضع العمودي للهاتف</string>
+    <string name="QuickTilesLandscape">عدد بقع الإعدادات السريعة في الوضع الأفقي للهاتف</string>
     <string name="GearRebootCategory">رؤية إعادة التشغيل على الركن الأعلى الأيسر</string>
     <string name="GearReboot">رؤية إعادة التشغيل</string>
     <string name="GearRebootColor">لون إعادة تشغيل</string>

@@ -920,7 +920,7 @@
                 android:summary="@string/dynamic_status_bar_filter_summary"
                 android:title="@string/dynamic_status_bar_filter_title" />
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-                min="0"
+                min="1"
                 android:defaultValue="10"
                 android:dependency="dynamic_toggle"
                 android:key="dynamic_status_bar_filter_value"

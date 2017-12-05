@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Putere blur fundal</string>
     <string name="BlurEffectDegree">Pondere efect blur</string>
     <string name="BlurEffectColor">Schimba culoarea la fundalul blur</string>
+    <string name="QuickTiles">Setari taste de ajustare rapida</string>
+    <string name="QuickTilesPortrait">Numar taste de ajustare rapida in mod portret</string>
+    <string name="QuickTilesLandscape">Numar taste de ajustare rapida in mod peisaj</string>
     <string name="GearRebootCategory">Visibilitate Reboot in colt stg sus</string>
     <string name="GearReboot">Visibilitate icon Reboot</string>
     <string name="GearRebootColor">Culoare icon Reboot</string>

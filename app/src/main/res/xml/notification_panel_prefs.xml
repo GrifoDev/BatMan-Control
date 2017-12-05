@@ -51,25 +51,13 @@
             android:key="hide_brightness_warning"
             android:summaryOff="@string/Enabled"
             android:summaryOn="@string/Disabled"
-            android:title="@string/BrightnessWarning"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui"/>
+            android:title="@string/BrightnessWarning" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="disable_volume_warning"
             android:summaryOff="@string/Enabled"
             android:summaryOn="@string/Disabled"
-            android:title="@string/VolumeWarning"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui"/>
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:key="force_expand_notifications"
-            android:summaryOff="@string/Disabled"
-            android:summaryOn="@string/Enabled"
-            android:title="@string/ForceExpand"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui"/>
+            android:title="@string/VolumeWarning" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="hide_brightness_slider"
@@ -119,6 +107,21 @@
             android:dependency="enable_blur"
             android:key="blur_background_color"
             android:title="@string/BlurEffectColor" />
+        <PreferenceCategory
+            android:title="@string/QuickTiles">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="6"
+                android:entries="@array/quick_qs_button_entries"
+                android:entryValues="@array/quick_qs_button_values"
+                android:key="quick_qs_buttons"
+                android:title="@string/QuickTilesPortrait" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="10"
+                android:entries="@array/quick_qs_button_entries"
+                android:entryValues="@array/quick_qs_button_values"
+                android:key="quick_qs_buttons_landscape"
+                android:title="@string/QuickTilesLandscape" />
+        </PreferenceCategory>
     </PreferenceScreen>
 
     <PreferenceScreen

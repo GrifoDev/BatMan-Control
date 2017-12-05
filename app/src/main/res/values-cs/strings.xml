@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Hodnota Blur ve stahovací nabídce</string>
     <string name="BlurEffectDegree">Stupeň Blur Efektu</string>
     <string name="BlurEffectColor">Změnit Barvu Blur</string>
+    <string name="QuickTiles">Rychlé nastavení dlaždic</string>
+    <string name="QuickTilesPortrait">Počet rychlých dlaždic v režimu na výšku</string>
+    <string name="QuickTilesLandscape">Počet rychlých dlaždic v režimu na šířku</string>
     <string name="GearRebootCategory">Restart v levém horním rohu</string>
     <string name="GearReboot">Viditelnost Restartu</string>
     <string name="GearRebootColor">Barva Restartu</string>

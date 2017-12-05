@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Valeur de fond effet de flou</string>
     <string name="BlurEffectDegree">Valeur de degré effet de flou</string>
     <string name="BlurEffectColor">Changer couleur de fond du flou</string>
+    <string name="QuickTiles">Paramètres tuiles</string>
+    <string name="QuickTilesPortrait">Nombre tuiles en portrait </ string>
+    <string name="QuickTilesLandscape">Nombre tuiles en paysage</string>
     <string name="GearRebootCategory">Redémarrer visible en haut à gauche</string>
     <string name="GearReboot">Visibilité de la touche</string>
     <string name="GearRebootColor">Couleur de la touche</string>

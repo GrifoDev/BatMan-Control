@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Bakgrunds värde av blur effekt</string>
     <string name="BlurEffectDegree">Grad värde av blur effekt</string>
     <string name="BlurEffectColor">Ändra blur bakgrundsfärg</string>
+    <string name="QuickTiles">Snabbinställningar Teglar</string>
+    <string name="QuickTilesPortrait">Antal Quick Tiles i stående läge</string>
+    <string name="QuickTilesLandscape">Antal Quick Tiles i liggande läge</string>
     <string name="GearRebootCategory">Omstartssynlighet i övre vänstra hörnet</string>
     <string name="GearReboot">Synlighet för omstartsvy</string>
     <string name="GearRebootColor">Färg för omstartsvy</string>

@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Valore sfondo effetto blur</string>
     <string name="BlurEffectDegree">Gradazione sfondo effetto blur</string>
     <string name="BlurEffectColor">Cambia il colore dello sfondo sfuocato</string>
+    <string name="QuickTiles">Preferenze tasti menu a tendina </string>
+    <string name="QuickTilesPortrait">Numero tasti in vista orizzontale</string>
+    <string name="QuickTilesLandscape">Numero tasti in vista verticale</string>
     <string name="GearRebootCategory">Tasto riavvio visibile in alto a sinistra</string>
     <string name="GearReboot">Visibilità tasto riavvio</string>
     <string name="GearRebootColor">Colore icona tasto riavvio</string>

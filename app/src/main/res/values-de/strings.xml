@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BM Einstellungen Pro</string>
+    <string name="app_name">BatControl Pro</string>
     <string name="ACube">Ein Würfel</string>
     <string name="Abstract">Abstrakt</string>
     <string name="ActualCarrierText">Aktueller Provider Text</string>
@@ -711,4 +711,7 @@
     <string name="listview_unfold">Entfalten</string>
     <string name="listview_wave_left">Welle links</string>
     <string name="listview_wave_right">Welle rechts</string>
+    <string name="QuickTiles">Schnellzugriffe</string>
+    <string name="QuickTilesLandscape">Nummer der Zugriffe in Horizontal</string>
+    <string name="QuickTilesPortrait">Nummer der Zugriffe in Vertikal</string>
 </resources>

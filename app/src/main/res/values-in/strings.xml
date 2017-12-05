@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Nilai efek samar pada background</string>
     <string name="BlurEffectDegree">Nilai tingkat pada efek samar</string>
     <string name="BlurEffectColor">Ubah warna background samar</string>
+    <string name="QuickTiles">Pengaturan Pintasan Cepat</string>
+    <string name="QuickTilesPortrait">Jumlah Pintasan Cepat pada mode Tegap</string>
+    <string name="QuickTilesLandscape">Jumlah Pintasan Cepat pada mode landskap</string>
     <string name="GearRebootCategory">Keterlihatan menu mulai orang pada pojok kiri</string>
     <string name="GearReboot">Keterlihatan menu mulai ulang</string>
     <string name="GearRebootColor">Tampilan warna mulai ulang</string>

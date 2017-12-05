@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Фоновое значение эффекта размытия</string>
     <string name="BlurEffectDegree">Степень значения эффекта размытия</string>
     <string name="BlurEffectColor">Изменить цвет фона размытия</string>
+    <string name="QuickTiles">Настройки плиток быстрого доступа</string>
+    <string name="QuickTilesPortrait">Кол-во плиток быстрого доступа в портретном режиме</string>
+    <string name="QuickTilesLandscape">Кол-во плиток быстрого доступа в горизонтальном режимe</string>
     <string name="GearRebootCategory">Перезагрузка видимости в верхнем левом углу</string>
     <string name="GearReboot">Перезагрузка видимости</string>
     <string name="GearRebootColor">Цвет Перезагрузки видимости</string>

@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Giá trị nền của hiệu ứng blur</string>
     <string name="BlurEffectDegree">Giá trị của hiệu ứng blur</string>
     <string name="BlurEffectColor">Thay đổi màu nền blur</string>
+    <string name="QuickTiles">Mục Cài đặt nhanh</string>
+    <string name="QuickTilesPortrait">Số mục cài đặt nhanh ở chế độ dọc</string>
+    <string name="QuickTilesLandscape">Số mục cài đặt nhanh ở chế độ ngang</string>
     <string name="GearRebootCategory">Nút khởi động lại hiển thị ở góc trên cùng bên trái</string>
     <string name="GearReboot">Hiển thị khởi động lại</string>
     <string name="GearRebootColor">Màu nút khởi động lại</string>

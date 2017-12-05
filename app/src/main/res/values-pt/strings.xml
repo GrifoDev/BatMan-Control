@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Valores do efeito desfoque</string>
     <string name="BlurEffectDegree">Diminuir a intensidade do efeito desfoque</string>
     <string name="BlurEffectColor">Alterar a cor de desfoque do fundo</string>
+    <string name="QuickTiles">Configuração do Quick Tiles</string>
+    <string name="QuickTilesPortrait">Números de Quick Tiles no modo retrato</string>
+    <string name="QuickTilesLandscape">Número de Quick Tiles no modo paisagem</string>
     <string name="GearRebootCategory">Visibilidade do reinício no canto esquero da barra de status</string>
     <string name="GearReboot">Visibilidade do ícone de reinício</string>
     <string name="GearRebootColor">Cor do ícone de reinício</string>

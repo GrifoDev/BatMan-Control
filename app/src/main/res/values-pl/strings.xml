@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Tło - efekt rozmycia</string>
     <string name="BlurEffectDegree">Stopień rozmycia</string>
     <string name="BlurEffectColor">Kolor rozmytego tła</string>
+    <string name="QuickTiles">Szybkie ustawienia płytek</string>
+    <string name="QuickTilesPortrait">Liczba szybkich płytek w trybie pionowym</string>
+    <string name="QuickTilesLandscape">Liczba szybkich płytek w trybie poziomym</string>
     <string name="GearRebootCategory">Widok restartu na lewym górnym rogu</string>
     <string name="GearReboot">Widok restartu</string>
     <string name="GearRebootColor">Kolor restartu</string>

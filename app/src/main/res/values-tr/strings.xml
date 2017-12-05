@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Bulanıklık Efektinin Arka Plan Değeri</string>
     <string name="BlurEffectDegree">Bulanıklık Efektinin Yoğunluğu</string>
     <string name="BlurEffectColor">Bulanıklık ArkaPlan Rengini Değiştir</string>
+    <string name="QuickTiles">Üst Panel Kısa Menü İkon Sayısı</string>
+    <string name="QuickTilesPortrait">Cihaz Dik Konumda İkon Sayısı</string>
+    <string name="QuickTilesLandscape">Cihaz Yan Konumda İkon Sayısı</string>
     <string name="GearRebootCategory">Sol Üst Köşede Aç / Kapat Butonu</string>
     <string name="GearReboot">Aç/Kapat Butonu Görünüm İzni</string>
     <string name="GearRebootColor">Butonun Rengi</string>

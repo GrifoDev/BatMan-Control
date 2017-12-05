@@ -346,6 +346,9 @@
     <string name="BlurEffectBackground">Achtergrond waarde van blur effect</string>
     <string name="BlurEffectDegree">Graad waarde van blur effect</string>
     <string name="BlurEffectColor">Verander blur achtergrond kleur</string>
+    <string name="QuickTiles">Tegels Snelle Instellingen</string> 
+    <string name="QuickTilesPortrait">Aantal Tegels in portret mode</string> 
+    <string name="QuickTilesLandscape">Aantal Tegels in landschap mode</string>
     <string name="GearRebootCategory">Herstart zichtbaarheid in de hoek links boven</string>
     <string name="GearReboot">Herstart view zichtbaarheid</string>
     <string name="GearRebootColor">Herstart view kleur</string>

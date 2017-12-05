@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">עוצמת רקע של אקפט טישטוש</string>
     <string name="BlurEffectDegree">עוצמת טקסט של אפקט טישטוש</string>
     <string name="BlurEffectColor">שנה צבע רקע של אפקט טישטוש</string>
+    <string name="QuickTiles">הגדרות מהירות של אריחים</string>
+    <string name="QuickTilesPortrait">מספר אריחים מהירים במוד ציור</string>
+    <string name="QuickTilesLandscape">מספר אריחים מהירים במוד נוף</string>
     <string name="GearRebootCategory">ראות הפעלה מחדש בפינה השמאלית למעלה</string>
     <string name="GearReboot">הצג הפעלה מחדש</string>
     <string name="GearRebootColor">הצג צבע הפעלה מחדש</string>

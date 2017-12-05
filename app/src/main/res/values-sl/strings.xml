@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Vrednost blur efekta</string>
     <string name="BlurEffectDegree">Stopinje blur efekta</string>
     <string name="BlurEffectColor">Spremeni barvo ozadja blur efekta</string>
+    <string name="QuickTiles">Ikone hitrih nastavitev</string>
+    <string name="QuickTilesPortrait">Število hitrih ikon v pokončnem načinu</string>
+    <string name="QuickTilesLandscape">Število hitrih ikon v ležečem načinu</string>
     <string name="GearRebootCategory">Ponastavi vidnost v zgornjem levem kotu</string>
     <string name="GearReboot">Ponastavi vidnost</string>
     <string name="GearRebootColor">Ponastavi barvo</string>

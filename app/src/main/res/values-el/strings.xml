@@ -345,6 +345,9 @@
     <string name="BlurEffectBackground">Τιμές φόντου του εφέ θολούρας</string>
     <string name="BlurEffectDegree">Βαθμός εφέ θολούρας</string>
     <string name="BlurEffectColor">Χρώμα φόντου Blur</string>
+    <string name="QuickTiles">Πλακίδια γρήγορων επιλογών</string>
+    <string name="QuickTilesPortrait">Αριθμός πλακιδίων σε portrait κατάσταση</string>
+    <string name="QuickTilesLandscape">Αριθμός πλακιδίων σε landscape κατάσταση</string>
     <string name="GearRebootCategory">Επανεκκίνηση πάνω αριστερά</string>
     <string name="GearReboot">Θέα επανεκκίνησης</string>
     <string name="GearRebootColor">Χρώμα θέας επανεκκίνησης</string>
