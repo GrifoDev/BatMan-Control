@@ -9,21 +9,14 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items" translatable="false">
-        <item>Based on latest AQK7 release</item>
-        <item>Latest November patch with Krack fix</item>
-        <item>Updated Magisk to 14.5</item>
-        <item>better control over framework mods via device detection</item>
-        <item>Removed many google apps to save space</item>
-        <item>Added S7 game launcher to fix game launcher without navbar</item>
-        <item>All kernels updated to AQK7 version</item>
-        <item>Xposed update to 88.2</item>
-        <item>Many more things, please check XDA or grifodev.ch</item>
+        <item>Oreo release V2.0.0</item>
+        <item>Please check www.grifodev.ch for detailed information</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog" translatable="false">BatMan-Rom V1.5.0</string>
+    <string name="rom_version_for_changelog" translatable="false">BatMan-Rom V2.0.0</string>
 
 
 </resources>
